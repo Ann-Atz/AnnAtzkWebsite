@@ -4,3 +4,26 @@
       hyphens: auto;
       text-align: justify
   }
+
+  .project-container {
+    row-gap: 50px;
+  }
+
+  .project-box {
+    display: flex;
+    gap: 40px;
+    border: solid pink;
+    margin-bottom: 40px;
+    padding: 10px;
+  }
+
+  .project-image {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-text {
+    width: 300px; 
+  }

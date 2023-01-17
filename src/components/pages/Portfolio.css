@@ -4,8 +4,8 @@
     grid-gap: 1.5rem;
     justify-items: center;
     margin: 0;
-    padding: 0;
-}
+    padding: 0px 50px 75px;
+  }
 
 .gallery-image {
   max-width: 100%;
