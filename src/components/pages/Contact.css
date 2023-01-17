@@ -1,0 +1,16 @@
+.contact {
+display: inline-flex;
+gap: 30px;
+}
+
+.contact-name {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.contact-info {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}

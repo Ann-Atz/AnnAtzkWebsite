@@ -1,0 +1,21 @@
+.banner {
+    width: 100%;
+    max-width: 2000px;
+    margin-bottom: 5%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(52, 52, 70);
+    color: white;
+}

@@ -1,0 +1,14 @@
+.about {
+    display: flex;
+    gap: 50px;
+}
+.hero-pic {
+    width: 200px;
+    border-radius: 10px;
+}
+.about-text {
+    color: black;
+    width: 500px;
+    hyphens: auto; 
+	text-align: justify;
+}
