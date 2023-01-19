@@ -1,14 +1,19 @@
 .about {
     display: flex;
+    flex-direction: wrap;
     gap: 50px;
+    align-items: center;
+    justify-content: flex-start;
 }
 .hero-pic {
-    width: 200px;
-    border-radius: 10px;
+    width: 30%;
+    height: auto;
+    border-radius: 100px;
 }
 .about-text {
     color: black;
-    width: 500px;
+    width: auto;
     hyphens: auto; 
 	text-align: justify;
+    margin: 30px;
 }

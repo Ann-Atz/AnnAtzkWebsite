@@ -32,11 +32,12 @@ footer {
 }
 
 .Footer-Top {
-    margin: 10px auto;
-    grid-template-columns: 70px 110px 70px;
+    margin: 5px auto;
+    grid-template-columns: 70px 105px 70px;
     width: fit-content;
     color: #cacdd2;
     display: grid;
+    align-items: center;
 }
 
 
