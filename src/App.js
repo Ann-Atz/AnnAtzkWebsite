@@ -2,14 +2,14 @@ import React from "react";
 import './App.css';
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar";
-import Footer from "./components/pages/Footer";
+import Footer from "./components/Footer";
 import { Route, Routes } from "react-router-dom"
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Portfolio from "./components/pages/Portfolio";
 import CV from "./components/pages/CV";
-// import Hero from "./components/Hero";
+import ScrollButton from "./components/ScrollButton/Scroll";
 
 
 function App() {
@@ -28,6 +28,7 @@ function App() {
           </Routes>
         </div>
       </div>
+      <ScrollButton />
       < Footer />
     </>
   );

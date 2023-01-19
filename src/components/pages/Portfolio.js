@@ -22,8 +22,6 @@ import reddress from '../img/RedDress.jpg'
 import sickle from '../img/sickle.png'
 
 
-
-
 function Portfolio() {
   return (
     <>
@@ -62,6 +60,8 @@ function Portfolio() {
           </div>
 
       </div>
+      
+      <button onclick="scrollToTop()">Scroll to the top</button>
     </>
 
   )
