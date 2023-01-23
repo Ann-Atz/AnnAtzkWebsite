@@ -2,3 +2,8 @@
     font-family: poppins;
     color: black;    
 }
+
+.page {
+    display: flex;
+    justify-content: center;
+}

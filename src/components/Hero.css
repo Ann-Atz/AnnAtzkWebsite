@@ -4,19 +4,25 @@
     margin-bottom: 5%;
 }
 
+.multiply {
+    background: linear-gradient(180deg, #545658 0%, rgba(255, 255, 255, 0) 100%);
+    mix-blend-mode: multiply;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .container {
     position: relative;
     text-align: center;
     color: white;
 }
 
+
 .title {
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size:  4vmin;
-    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(52, 52, 70);
+    font-size: 4vmin;
+    text-shadow: 1px 1px 30px rgb(61, 45, 54), 0 0 1em rgb(174, 47, 144);
     color: white;
 }
-

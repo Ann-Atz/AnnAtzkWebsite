@@ -3,7 +3,6 @@ import "./Home.css"
 
 import hasta from '../projects/hasta.png'
 import educare from '../projects/educare.png'
-import gruppe from '../projects/GruppenBild.jpg'
 import safety from '../projects/safety.png'
 import skinguide from '../projects/SkinGuide.png'
 
@@ -25,11 +24,6 @@ function Home() {
             <div className='project-text'>
               “EduCare” is a website specially developed for refugee parents
               to help them communicate with teachers and schools
-            </div></div>
-          <div className='project-box'>
-            <img src={gruppe} className="project-image" alt="img" />
-            <div className='project-text'>
-              Unsere Gruppe
             </div></div>
           <div className='project-box'>
             <img src={safety} className="project-image" alt="img" />

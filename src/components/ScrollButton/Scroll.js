@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { RiPlaneFill } from 'react-icons/ri';
 import { Button } from './Styles';
+import './Scroll.css'
 
 const ScrollButton = () => {
 
@@ -9,10 +10,10 @@ const ScrollButton = () => {
 
     const toggleVisible = () => {
         const scrolled = document.documentElement.scrollTop;
-        if (scrolled > 600) {
+        if (scrolled > 700) {
             setVisible(true)
         }
-        else if (scrolled <= 600) {
+        else if (scrolled <= 700) {
             setVisible(false)
         }
     };
@@ -27,14 +28,12 @@ const ScrollButton = () => {
     window.addEventListener('scroll', toggleVisible);
 
     return (
-        <Button>
+        <Button className="scroll-button">
             <RiPlaneFill onClick={scrollToTop}
                      style={{display: visible ? 'inline' : 'none'}} 
                      size="20px"
-                     
-                     fill='gray' 
+                     fill='gray'
                      />
-
         </Button>
     );
 }
