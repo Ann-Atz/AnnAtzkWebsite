@@ -2,12 +2,12 @@ import React from 'react'
 import "./Home.css"
 import { Link } from 'react-router-dom'
 
-import educare from '../projects/Educare.png'
-import hasta from '../projects/Hasta.png'
-import meta from '../projects/Metavar.png'
-import db from '../projects/DB.png'
-import skinguide from '../projects/Skinguide.png'
-import typo from '../projects/Typografie.png'
+import educare from '../pages/thumbnails/Educare.png'
+import hasta from '../pages/thumbnails/Hasta.png'
+import meta from '../pages/thumbnails/Metavar.png'
+import db from '../pages/thumbnails/DB.png'
+import skinguide from '../pages/thumbnails/Skinguide.png'
+import typo from '../pages/thumbnails/Typografie.png'
 import Ellipse from '../img/Ellipse.png'
 
 function Home() {
