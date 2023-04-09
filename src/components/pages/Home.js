@@ -12,38 +12,38 @@ import Ellipse from '../img/Ellipse.png'
 
 function Home() {
   return (
-    <><><><>
+    <>
       <div className='hero_container'>
         <div className='title1'>Hi, I'm</div>
-        <div className='title2'>Ann-Marie<br></br>Atzkern</div>
+        <div className='title2'>Ann-Marie<br/>Atzkern</div>
         <div className='title3'>Student of IT and Design</div>
       </div>
 
       <div className='ellipse-title'>
         <img src={Ellipse} className="ellipse_png" alt="img" />
       </div>
-    </>
+
       <div className='welcome'>
-        <div className='title1'>Hello!</div>
-        <div className='Welcome_Text'>Willkommen auf meinem Portfolio. Dies soll Ihnen einen kleinen Einblick in meine Fähigkeiten und Projekte geben. Mein Name ist Ann und ich liebe es, Probleme zu lösen und kreativ zu sein. Genauer gesagt interessiere ich mich für den Bereich UI/UX und Frontend Entwicklung. Ich konnte bereits in meinem Studium erste Erfahrungen und Berührungspunkte mit Projekten sammeln und beschäftige mich außerdem in meiner Freizeit gern mit Kunst und Design. Durch mein Studium habe ich bereits umfangreiche Erfahrungen und Kenntnisse im UX/UI Bereich gesammelt und bin bestrebt, mein Wissen ständig zu erweitern und zu vertiefen.
-        </div>
-      </div></>
+        <h1 className='title1'>Hello!</h1>
+        <p className='Welcome_Text'>Willkommen auf meinem Portfolio. Dies soll Ihnen einen kleinen Einblick in meine Fähigkeiten und Projekte geben. Mein Name ist Ann und ich liebe es, Probleme zu lösen und kreativ zu sein. Genauer gesagt interessiere ich mich für den Bereich UI/UX und Frontend Entwicklung. Ich konnte bereits in meinem Studium erste Erfahrungen und Berührungspunkte mit Projekten sammeln und beschäftige mich außerdem in meiner Freizeit gern mit Kunst und Design. Durch mein Studium habe ich bereits umfangreiche Erfahrungen und Kenntnisse im UX/UI Bereich gesammelt und bin bestrebt, mein Wissen ständig zu erweitern und zu vertiefen.
+        </p>
+      </div>
+
       <div className='ellipse-welcome'>
-      <img src={Ellipse} className="ellipse-png" alt="img" />
+        <img src={Ellipse} className="ellipse-png" alt="img" />
+      </div>
 
-{/* Featured Works */}
-
-      </div></><div class="code-block">
-        <hometitle>Featured Work</hometitle>
-        <homeundertitle>Projekten aus Hochschule München</homeundertitle>
+      <div className="code-block">
+        <h2 className="hometitle">Featured Work</h2>
+        <h3 className="homeundertitle">Projekten aus Hochschule München</h3>
         <div className="project">
           <div className='project-box'>
             <img src={educare} className="project-image" alt="img" />
             <div className='project-text'>
-              <t1>Educare</t1>
-              <t2>3 Semester</t2>
-              <t3>Die App für Flüchtlingseltern, um die Kommunikation mit Lehrern zu erleichtern und die Bildungschancen ihrer Kinder zu verbessern.</t3>
-              <t4>Tools: VS Code, Github, Figma</t4>
+              <h3 className="t1">Educare</h3>
+              <span className="t2">3 Semester</span>
+              <p className="t3">Die App für Flüchtlingseltern, um die Kommunikation mit Lehrern zu erleichtern und die Bildungschancen ihrer Kinder zu verbessern.</p>
+              <span className="t4">Tools: VS Code, Github, Figma</span>
               <form className="home">
                 <button type="submit"><Link className='link' to="/Educare">View Project</Link></button>
               </form>
