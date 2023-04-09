@@ -24,6 +24,7 @@
     max-width: 1000px;
   }
 }
+
 @media screen and (min-width: 992px){
   .portfolio {
     display: grid;

@@ -4,20 +4,27 @@ import Hero from "./components/Hero"
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { Route, Routes } from "react-router-dom"
+
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Portfolio from "./components/pages/Portfolio";
 import CV from "./components/pages/CV";
-import ScrollButton from "./components/ScrollButton/Scroll";
 
+// import ScrollButton from "./components/ScrollButton/Scroll";
+
+const navlinks = [
+  { name: 'Home', to: '/' },
+  { name: 'About', to: '/about' },
+  { name: 'Contact', to: '/contact' },
+]
 
 function App() {
   return (
     <>
+      < Navbar />
       <Hero />
       <div className='page'>
-        < Navbar />
         <div className="container">
           <Routes>
             <Route path="/" element={<Home />} />
@@ -28,7 +35,7 @@ function App() {
           </Routes>
         </div>
       </div>
-      <ScrollButton />
+      {/* <ScrollButton /> */}
       < Footer />
     </>
   );

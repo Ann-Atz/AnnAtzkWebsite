@@ -1,37 +1,230 @@
-  .about-text {
-      color: black;
-      width: 500px;
-      hyphens: auto;
-      text-align: justify
+hometitle {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 5vmin;
+  font-weight: 800;
+  padding-top: 50px;
+}
+
+homeundertitle {
+  color: #8A8A8A;
+  display: flex;
+  justify-content: center;
+  font-size: 2.3vmin;
+  font-weight: 400;
+}
+
+.code-block {
+  background-color: black;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px 50px;
+}
+
+
+.project-box {
+  background: black;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+  padding: 10px;
+  width: 250px;
   }
 
-  .project-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    
+.project-text,
+t3 {
+  font-size: 2vmin;
+  /* hyphens: auto; */
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: 30px;
+
+}
+
+t1 {
+  color: white;
+  font-size: 3vmin;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+t2 {
+  color: #8A8A8A;
+  font-size: 2.2vmin;
+  margin-bottom: 8px;
+  font-weight: 400px;
+}
+
+t3 {
+  color: white;
+  margin-bottom: 16px;
+}
+
+t4 {
+  color: darkgrey;
+  font-size: 2.1vmin;
+  margin-bottom: 4px;
+}
+
+.project-image {
+  margin-bottom: 16px;
+  width: 230px;
+  height: auto;
+}
+
+.home button {
+  justify-content: end;
+  padding: 3px 10px;
+  background-color: black;
+  border: 2px solid #c5c5c5 !important;
+  cursor: pointer;
+  border-radius: 40px;
+  width: fit-content;
+  margin-top: 8px;
+  font-size: 2.1vmin;
+  font-weight: bold;
+  transition: all 0.2s ease-out;
+}
+
+.home button:hover {
+  background-color: #c5c5c5 !important;
+}
+
+.home button:active {
+  border: white;
+  background-color: white !important;
+}
+
+.link {
+  text-decoration: none;
+  color: #8A8A8A;
+}
+
+.link:hover {
+  color: black;
+}
+
+
+
+
+
+/* LIGHTMODE---------------------
+
+  hometitle {
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-size: 4vmin;
+  font-weight: 800;
+  padding-top: 50px;
+}
+
+.code-block {
+  background-color: white;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 1000px;
+  margin: auto;
+  padding: 150px 50px;
+}
+
+
+.project-box {
+  background: white;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+  padding: 10px;
+  width: 250px;
   }
 
-  .project-box {
-    background: #efe3ea;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;    
-    box-sizing: border-box;
-    margin-bottom: 40px;
-    padding: 10px;
-    width: 600px;
-  }
+.project-text,
+t3 {
+  font-size: 2vmin;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
 
-  .project-image {
-    margin: 20px;
-    min-width: 300px;
-    max-width: 400px;
-    height: auto;
-  }
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: 30px;
 
-  .project-text {
-    float: inline-end;
-    font-size: 3vmin;
-  }
+}
+
+t1 {
+  color: black;
+  font-size: 3vmin;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+t2 {
+  color: #8A8A8A;
+  font-size: 2.2vmin;
+  margin-bottom: 8px;
+  font-weight: 400px;
+}
+
+t3 {
+  color: black;
+  margin-bottom: 16px;
+}
+
+t4 {
+  color: darkgrey;
+  font-size: 2.1vmin;
+  margin-bottom: 4px;
+}
+
+.project-image {
+  margin-bottom: 16px;
+  width: 250px;
+  height: auto;
+}
+
+.home button {
+  padding: 3px 10px;
+  background-color: white;
+  border: 2px solid #c5c5c5 !important;
+  cursor: pointer;
+  border-radius: 40px;
+  width: fit-content;
+  margin-top: 8px;
+  font-size: 2.1vmin;
+  font-weight: bold;
+  transition: all 0.2s ease-out;
+}
+
+.home button:hover {
+  background-color: #c5c5c5 !important;
+}
+
+.link {
+  text-decoration: none;
+  color: #8A8A8A;
+}
+
+.link:hover {
+  color: white;
+} */

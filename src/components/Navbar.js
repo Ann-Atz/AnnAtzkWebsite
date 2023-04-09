@@ -1,77 +1,141 @@
-import React, { useState, useEffect } from 'react';
-import { Button } from './Button';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
+import styled from "styled-components";
 import './Navbar.css';
 
-function Navbar() {
-  const [click] = useState(false);
-  const [button, setButton] = useState(true);
+const HorizontalLine = styled.hr`
+  border: none;
+  height: 1px;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 2%;
+  width: 97%;
+  top: 70%;
+  `;
 
+const NavContainer = styled.nav`
+  height: 50px;
+  font-family: 'Satoshi', sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  transition: all 0.5s ease-in-out;
 
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
+  &.scrolling {
+    transform: translateY(-100%);
+  }
+
+  &.top {
+    transform: translateY(0);
+  }
+`;
+
+const Nav = styled.div`
+  font-family: 'Satoshi', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1%;
+  height: 45px;
+  color: white;
+  padding: 0 20px;
+`;
+
+const NavLogo = styled(Link)`
+  font-family: 'Satoshi', sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  // font-size: 3vmin;  ALTERNATIVE FONT SIZE CHANGE!!  
+  text-decoration: none;
+`;
+
+const NavLinks = styled.ul`
+  font-family: 'Satoshi', sans-serif;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+`;
+
+const NavLink = styled(Link)`
+  font-family: 'Satoshi', sans-serif;
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 5px;
+
+  &:hover {
+    box-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    
+  }
+
+  &:focus {
+    color: white;
+    font-weight: bold;
+  }
+
+`;
+
+const PeekabooNavbar = () => {
+  const location = useLocation();
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
 
   useEffect(() => {
-    showButton();
-  }, []);
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
 
-  window.addEventListener('resize', showButton);
+      if (prevScrollPos > currentScrollPos) {
+        setVisible(true);
+      } else {
+        setVisible(false);
+      }
+
+      setPrevScrollPos(currentScrollPos);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [prevScrollPos]);
+
+  const getClassName = () => {
+    let className = "";
+
+    if (!visible) {
+      className += "scrolling";
+    }
+
+    if (prevScrollPos === 0) {
+      className += " top";
+    }
+
+    return className;
+  };
 
   return (
-    <>
-      <nav className='navbar'>
-        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-
-            {/* <li className='nav-item'>
-              <Link
-                to='/'
-                className='nav-links'>
-                Ann-Marie Atzkern
-              </Link>
-            </li> */}
-
-          <li className='nav-item'>
-            <Link
-              to='/'
-              className='nav-links'>
-              Home
-            </Link>
-          </li>
-
-          <li className='nav-item'>
-            <Link
-              to='/About'
-              className='nav-links'>
-              About
-            </Link>
-          </li>
-
-          <li className='nav-item'>
-            <Link
-              to='/Portfolio'
-              className='nav-links'>
-              Portfolio
-            </Link>
-          </li>
-
-          <li>
-            <Link
-              to='/Contact'
-              className='nav-links'>
-              Contact
-            </Link>
-          </li>
-
-        </ul>
-        {/* {button && <Button buttonStyle='btn--outline'>Download CV</Button>} */}
-      </nav>
-    </>
+    <NavContainer className={getClassName()}>
+      <Nav>
+        <NavLogo to="/">PORTFOLIO</NavLogo>
+        <NavLinks>
+          <NavLink to="/" className={location.pathname === "/" ? "active" : ""}>
+            Home
+          </NavLink>
+          <NavLink to="/About" className={location.pathname === "/About" ? "active" : ""}>
+            About
+          </NavLink>
+          <NavLink to="/Portfolio" className={location.pathname === "/Portfolio" ? "active" : ""}>
+            Portfolio
+          </NavLink>
+        </NavLinks>
+      </Nav>
+      <HorizontalLine />
+    </NavContainer>
   );
-}
+};
 
-export default Navbar;
+export default PeekabooNavbar;
