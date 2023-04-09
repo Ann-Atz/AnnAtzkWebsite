@@ -1,9 +1,8 @@
 import React from "react";
 import './App.css';
-import Hero from "./components/Hero"
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import { Route, Routes } from "react-router-dom"
+import { Route, Routes } from "react-router-dom";
 
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
@@ -13,17 +12,10 @@ import CV from "./components/pages/CV";
 
 // import ScrollButton from "./components/ScrollButton/Scroll";
 
-const navlinks = [
-  { name: 'Home', to: '/' },
-  { name: 'About', to: '/about' },
-  { name: 'Contact', to: '/contact' },
-]
-
 function App() {
   return (
     <>
       < Navbar />
-      <Hero />
       <div className='page'>
         <div className="container">
           <Routes>

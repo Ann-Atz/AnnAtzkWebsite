@@ -1,20 +1,25 @@
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
 .hometitle {
   color: white;
-  display: flex;
   justify-content: center;
   font-size: 5vmin;
   font-weight: 800;
-  padding-top: 300px;
   z-index: 1;
 }
 
 .homeundertitle {
   color: #8A8A8A;
-  display: flex;
   justify-content: center;
   font-size: 2.3vmin;
   font-weight: 400;
   z-index: 1;
+  margin-top: 0; /* remove the margin-top value */
 }
 
 .code-block {
