@@ -4,6 +4,7 @@
   max-width: 1000px;
   margin: auto;
   row-gap: 20px;
+  margin-top: 10%;
 }
 
 .portfolio-column {
@@ -15,6 +16,13 @@
 .gallery-image {
   width: 90%;
   margin-bottom: 20px;
+}
+
+.gallery-image:hover {
+  width: 90%;
+  margin-bottom: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 21px rgb(107, 99, 255); 
 }
 
 @media screen and (min-width: 600px){

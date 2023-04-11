@@ -15,13 +15,13 @@ function Home() {
     <>
       <div className='hero_container'>
         <div className='title1'>Hi, I'm</div>
-        <div className='title2'>Ann-Marie<br/>Atzkern</div>
+        <div className='title2'>Ann-Marie<br />Atzkern</div>
         <div className='title3'>Student of IT and Design</div>
+        <div className='ellipse-title'>
+          <img src={Ellipse} className="ellipse_png" alt="img" />
+        </div>
       </div>
 
-      <div className='ellipse-title'>
-        <img src={Ellipse} className="ellipse_png" alt="img" />
-      </div>
 
       <div className='welcome'>
         <h1 className='title1'>Hallo!</h1>
@@ -35,15 +35,15 @@ function Home() {
 
       <div className="code-block">
         <div className='title-container'>
-        <div className="hometitle">Featured Work</div>
-        <h3 className="homeundertitle">Projekten für Hochschule München</h3></div>
+          <div className="hometitle">Featured Work</div>
+          <h3 className="homeundertitle">Projekten für Hochschule München</h3></div>
         <div className="project">
           <div className='project-box'>
             <img src={educare} className="project-image" alt="img" />
             <div className='project-text'>
-              <h3 className="t1">Educare</h3>
-              <span className="t2">3 Semester</span>
-              <p className="t3">Die App für Flüchtlingseltern, um die Kommunikation mit Lehrern zu erleichtern und die Bildungschancen ihrer Kinder zu verbessern.</p>
+              <t1>Educare</t1>
+              <t2>3. Semester</t2>
+              <t3>Eine App für Flüchtlingseltern, um den Austausch mit Lehrern zu erleichtern und so die Bildungschancen ihrer Kinder zu erhöhen.</t3>
               <t4>Tools: VS Code, Github, Figma</t4>
               <form className="home">
                 <button type="submit"><Link className='link' to="/Educare">View Project</Link></button>
@@ -54,7 +54,7 @@ function Home() {
             <img src={hasta} className="project-image" alt="img" />
             <div className='project-text'>
               <t1>Hasta La Fiesta</t1>
-              <t2>2 Semester</t2>
+              <t2>2. Semester</t2>
               <t3>Die perfekte Webseite zur Partyplanung! Wir helfen Gastgebern und Gästen, Essen, Musik und Spiele einfacher zu organisieren.</t3>
               <t4>Tools: Gitlab, Figma, Scrum</t4>
               <form className="home">
@@ -66,7 +66,7 @@ function Home() {
             <img src={meta} className="project-image" alt="img" />
             <div className='project-text'>
               <t1>Metavar</t1>
-              <t2>2 Semester</t2>
+              <t2>2. Semester</t2>
               <t3>Entdecke mit METAVAR die gigantische Welt der Charaktere. Gestalte noch heute deinen eigenen Avatar. Sei individuell, sei du selbst!</t3>
               <t4>Tools: Unreal Engine 5, Github</t4>
               <form className="home">
@@ -78,7 +78,7 @@ function Home() {
             <img src={db} className="project-image" alt="img" />
             <div className='project-text'>
               <t1>DB for Women</t1>
-              <t2>2 Semester</t2>
+              <t2>2. Semester</t2>
               <t3>Für mehr Sicherheit in der Bahn. Die App für Frauen bietet sichere Wege und schnelle Notfallvorbereitung.</t3>
               <t4>Tools: Figma, Design Thinking</t4>
               <form className="home">
@@ -90,7 +90,7 @@ function Home() {
             <img src={skinguide} className="project-image" alt="img" />
             <div className='project-text'>
               <t1>SkinGuide</t1>
-              <t2>1 Semester</t2>
+              <t2>1. Semester</t2>
               <t3>Dein persönlicher Sprachassistent, der dir hilft, deinen Hauttyp zu bestimmen und die richtigen Pflegemittel zu finden.</t3>
               <t4>Tools: Amazon Developer, VoiceFlow</t4>
               <form className="home">
@@ -102,7 +102,7 @@ function Home() {
             <img src={typo} className="project-image" alt="img" />
             <div className='project-text'>
               <t1>Typografie</t1>
-              <t2>1 Semester</t2>
+              <t2>1. Semester</t2>
               <t3>Typografische Poster zum Thema soziale Angst, um zu zeigen, wie belastend soziale Ängste sein können.</t3>
               <t4>Tools: Photoshop</t4>
               <form className="home">

@@ -60,9 +60,7 @@ function Portfolio() {
           </div>
 
       </div>
-      
-      <button onclick="scrollToTop()">Scroll to the top</button>
-    </>
+</>
 
   )
 }
