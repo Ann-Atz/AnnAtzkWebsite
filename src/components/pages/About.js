@@ -2,7 +2,7 @@ import React from 'react'
 import './About.css'
 import ann from '../img/HeroPic.jpg'
 import Ellipse from '../img/Ellipse.png'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 function About()  {
   return (
