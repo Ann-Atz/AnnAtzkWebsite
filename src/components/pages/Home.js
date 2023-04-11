@@ -24,7 +24,7 @@ function Home() {
 
 
       <div className='welcome'>
-        <h1 className='title1'>Hallo!</h1>
+        <div className='title4'>Hallo!</div>
         <div className='Welcome_Text'>Willkommen auf meinem Portfolio. Dies soll Ihnen einen kleinen Einblick in meine Fähigkeiten und Projekte geben. Mein Name ist Ann und ich liebe es, Probleme zu lösen und kreativ zu sein. Genauer gesagt interessiere ich mich für den Bereich UI/UX und Frontend Entwicklung. Ich konnte bereits in meinem Studium erste Erfahrungen und Berührungspunkte mit Projekten sammeln und beschäftige mich außerdem in meiner Freizeit gern mit Kunst und Design. Durch mein Studium habe ich bereits umfangreiche Erfahrungen und Kenntnisse im UX/UI Bereich gesammelt und bin bestrebt, mein Wissen ständig zu erweitern und zu vertiefen.
         </div>
       </div>
@@ -36,7 +36,7 @@ function Home() {
       <div className="code-block">
         <div className='title-container'>
           <div className="hometitle">Featured Work</div>
-          <h3 className="homeundertitle">Projekten für Hochschule München</h3></div>
+          <h3 className="homeundertitle">Projekte für Hochschule München</h3></div>
         <div className="project">
           <div className='project-box'>
             <img src={educare} className="project-image" alt="img" />

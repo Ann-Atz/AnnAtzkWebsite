@@ -57,6 +57,6 @@
   text-decoration: none;
 }
 
-.home:hover, .about:hover, .Portfolio:hover {
+.home:hover, .About:hover, .Portfolio:hover {
   font-weight: bold;
 }

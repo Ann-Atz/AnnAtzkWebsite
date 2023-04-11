@@ -50,12 +50,12 @@ const NavContainer = (props) => {
             </Link>
           </li>
           <li>
-            <Link to="/About" className={`about ${location.pathname === "/About" ? "active" : ""}`}>
+            <Link to="/About" className={`About ${location.pathname === "/About" ? "active" : ""}`}>
               About
             </Link>
           </li>
           <li>
-            <Link to="/About" className={`Portfolio ${location.pathname === "/Portfolio" ? "active" : ""}`}>
+            <Link to="/Portfolio" className={`Portfolio ${location.pathname === "/Portfolio" ? "active" : ""}`}>
               Portfolio
             </Link>
           </li>
