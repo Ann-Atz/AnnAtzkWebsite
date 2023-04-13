@@ -27,7 +27,8 @@ function Home() {
         <div className='title4'>Hallo!</div>
         <div className='Welcome_Text'>Willkommen auf meinem Portfolio. Dies soll Ihnen einen kleinen Einblick in meine Fähigkeiten und Projekte geben. Mein Name ist Ann und ich liebe es, Probleme zu lösen und kreativ zu sein. Genauer gesagt interessiere ich mich für den Bereich UI/UX und Frontend Entwicklung. Ich konnte bereits in meinem Studium erste Erfahrungen und Berührungspunkte mit Projekten sammeln und beschäftige mich außerdem in meiner Freizeit gern mit Kunst und Design. Durch mein Studium habe ich bereits umfangreiche Erfahrungen und Kenntnisse im UX/UI Bereich gesammelt und bin bestrebt, mein Wissen ständig zu erweitern und zu vertiefen.
         </div>
-      </div>
+      </div>    
+
 
       <div className='ellipse-welcome'>
         <img src={Ellipse} className="ellipse-png" alt="img" />
@@ -111,7 +112,93 @@ function Home() {
             </div></div>
 
         </div>
-      </div></>
+      </div>
+
+      <div class='wrapper'>
+        <div class='container'>
+
+        </div>
+      </div>
+
+
+
+      <skills>
+        <div class="skills_section">
+          <div class="skills_head">
+            <h2>My <span>Skills</span></h2>
+            <p>Meine Kenntnisse in Design und Informatik</p>
+          </div>
+
+          <div class="skills_main">
+            <div class="skill_bar">
+              <div class="info">
+                <p>Photoshop</p>
+              </div>
+              <div class="bar">
+                <span class="html"></span>
+              </div>
+            </div>
+            <div class="skill_bar">
+              <div class="info">
+                <p>Java</p>
+              </div>
+              <div class="bar">
+                <span class="css"></span>
+              </div>
+            </div>
+            <div class="skill_bar">
+              <div class="info">
+                <p>After Effects</p>
+              </div>
+              <div class="bar">
+                <span class="sass"></span>
+              </div>
+            </div>
+            <div class="skill_bar">
+              <div class="info">
+                <p>CSS</p>
+              </div>
+              <div class="bar">
+                <span class="js"></span>
+              </div>
+            </div>
+            <div class="skill_bar">
+              <div class="info">
+                <p>Figma</p>
+              </div>
+              <div class="bar">
+                <span class="react"></span>
+              </div>
+            </div>
+            <div class="skill_bar">
+              <div class="info">
+                <p>Python</p>
+              </div>
+              <div class="bar">
+                <span class="node"></span>
+              </div>
+            </div>
+            <div class="skill_bar">
+              <div class="info">
+                <p>Illustrator</p>
+              </div>
+              <div class="bar">
+                <span class="express"></span>
+              </div>
+            </div>
+            <div class="skill_bar">
+              <div class="info">
+                <p>React</p>
+              </div>
+              <div class="bar">
+                <span class="mongo"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </skills>
+    </>
   )
 }
 
