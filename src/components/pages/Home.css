@@ -206,7 +206,6 @@ t4 {
   hyphens: auto;
   text-align: justify;
   top: 250px;
-  background-color: #111113;
   padding: 60px;
   position: relative;
   left: 50%;
@@ -220,6 +219,7 @@ t4 {
     margin: 0;
     box-sizing: border-box;
 }
+
 .skills_section{
     width: 100%;
     height: 100vh;
@@ -313,7 +313,7 @@ t4 {
 }
 .skill_bar .bar .js{
     width: 80%;
-    animation: css 2s;
+    animation: js 2s;
 }
 @keyframes js {
     0%{
@@ -368,10 +368,16 @@ t4 {
 }
 
 
-
 /*for phone screen*/
 @media screen and (max-width: 600px) {
   .ellipse-png {
     overflow: hidden;
+  }
+  .welcome {
+    width: 450px;
+    background-color: transparent;
+  }
+  .code-block{
+    margin-bottom: -200px;
   }
 }
