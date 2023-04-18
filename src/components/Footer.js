@@ -14,7 +14,7 @@ function Footer() {
                         <p><a href="https://www.privacypolicies.com/generic/" title="policy" target="_blank" className="w3-hover-text-green" rel="noreferrer">Impressum</a></p>
                     </div>
                 </div>
-                <div className="Footer-Top">
+                <div className="Footer-Mid">
                     <div className="Footer_Thick">
                         <p>Contact</p></div>
                     <div className="Footer_Thin">

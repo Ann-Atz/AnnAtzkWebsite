@@ -41,6 +41,17 @@ footerspan {
 }
 
 /* Bottom */
+.Footer-Mid {
+    text-align: center;
+    color: white;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    word-spacing: 2px;
+}
 
 .Footer-Bottom {
     text-align: center;
