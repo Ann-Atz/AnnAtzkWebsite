@@ -16,3 +16,9 @@ body {
   opacity: 50%;
   z-index: -1;
 }
+
+
+@font-face {
+  font-family: 'Sangu';
+  src: local('Sangu'), url(./fonts/sangu-regular.ttf) format('truetype');
+}
