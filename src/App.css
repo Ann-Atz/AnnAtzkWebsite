@@ -9,3 +9,10 @@ body {
     background-repeat: no-repeat;
     background-position: 50% calc(0% - 80px);
 }
+
+.ellipse-png {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(149, 14, 255, 0.69) 0%, rgba(255, 255, 255, 0) 100%);
+  mix-blend-mode: hard-light;
+  opacity: 50%;
+  z-index: -1;
+}
