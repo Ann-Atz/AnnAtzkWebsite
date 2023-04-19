@@ -1,3 +1,11 @@
 * {
     font-family: 'Satoshi', sans-serif;
 }
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url("./components/img/Ellipse.png");
+    background-blend-mode: hard-light;
+    background-repeat: no-repeat;
+    background-position: 50% calc(0% - 80px);
+}

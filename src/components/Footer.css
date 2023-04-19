@@ -42,9 +42,9 @@ footerspan {
 
 /* Bottom */
 .Footer-Mid {
+    margin-top: 2%;
     text-align: center;
     color: white;
-    margin-top: 2%;
     display: flex;
     flex-direction: column;
     color: white;
@@ -55,6 +55,8 @@ footerspan {
 
 .Footer-Bottom {
     text-align: center;
+    background-color: #111113;
+    width: 100%;
     font-size: 8px;
     color: white;
     display: grid;
@@ -70,7 +72,7 @@ footerspan {
     text-transform: uppercase;
 }
 
-.Footer_Thin {
+.Footer_Thin{
     font-size: 12px;
 }
 

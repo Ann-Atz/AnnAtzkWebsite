@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from 'react';
-import "./Home.css"
 import { Link } from 'react-router-dom'
 
 import educare from '../pages/thumbnails/Educare.png'
@@ -9,6 +8,7 @@ import db from '../pages/thumbnails/DB.png'
 import skinguide from '../pages/thumbnails/Skinguide.png'
 import typo from '../pages/thumbnails/Typografie.png'
 import Ellipse from '../img/Ellipse.png'
+import "./Home.css"
 
 function Home() {
   const ref = useRef(null);
@@ -39,22 +39,24 @@ function Home() {
         <div className='title2'>Ann-Marie<br />Atzkern
         </div>
         <div className='title3'>Student of IT and Design</div>
-        <div className='ellipse-title'>
+        {/* <div className='container'>
+          <div className='ellipse-title'>
           <img src={Ellipse} className="ellipse-png" alt="img" />
-        </div>
+          </div>
+          </div> */}
       </div>
-
 
       <div className='welcome'>
         <div className='title4'>Hallo!</div>
         <div className='Welcome_Text'>Willkommen auf meinem Portfolio. Dies soll Ihnen einen kleinen Einblick in meine Fähigkeiten und Projekte geben. Mein Name ist Ann und ich liebe es, Probleme zu lösen und kreativ zu sein. Genauer gesagt interessiere ich mich für den Bereich UI/UX und Frontend Entwicklung. Ich konnte bereits in meinem Studium erste Erfahrungen und Berührungspunkte mit Projekten sammeln und beschäftige mich außerdem in meiner Freizeit gern mit Kunst und Design. Durch mein Studium habe ich bereits umfangreiche Erfahrungen und Kenntnisse im UX/UI Bereich gesammelt und bin bestrebt, mein Wissen ständig zu erweitern und zu vertiefen.
         </div>
       </div>
+      
 
-
+      <div className='container'>
       <div className='ellipse-welcome'>
         <img src={Ellipse} className="ellipse-png" alt="img" />
-      </div>
+      </div></div>
 
       <div className="code-block">
         <div className='title-container'>
