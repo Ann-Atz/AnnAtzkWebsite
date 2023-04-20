@@ -8,16 +8,31 @@
 .video-play {
     width: 200px;
     height: auto;
+    box-shadow: 0px 0px 40px 1px rgba(102, 14, 255, 0.9);
+    background-clip: padding-box, content-box;
 }
 
 .typo-row, .animation-row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
-    gap: 26px;
+    margin: 100px;
+    gap: 26px;   
 }
+
 
 .typo-image {
     width: 200px;
+    box-shadow: 0px 0px 40px 1px rgba(102, 14, 255, 0.9);
+    background-clip: padding-box, content-box;
+}
+
+@media (max-width: 700px) {
+.typo-row, .animation-row {
+    gap: 56px;   
+}
+.typo-image, .video-play {
+    width: 300px;
+}
 }
