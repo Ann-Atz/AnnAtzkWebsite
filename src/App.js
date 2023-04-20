@@ -6,13 +6,13 @@ import { Route, Routes } from "react-router-dom";
 
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
-import Educare from "./components/pages/Educare";
 import Portfolio from "./components/pages/Portfolio";
-import HastaLaFiesta from "./components/pages/HastaLaFiesta";
-import Metavar from "./components/pages/Metavar";
-import DBforWomen from "./components/pages/DBforWomen";
-import SkinGuide from "./components/pages/SkinGuide";
-import Typografie from "./components/pages/Typografie";
+import Educare from "./components/pages/projects/Educare";
+import HastaLaFiesta from "./components/pages/projects/HastaLaFiesta";
+import Metavar from "./components/pages/projects/Metavar";
+import DBforWomen from "./components/pages/projects/DBforWomen";
+import SkinGuide from "./components/pages/projects/SkinGuide";
+import Typografie from "./components/pages/projects/Typografie";
 
 // import ScrollButton from "./components/ScrollButton/Scroll";
 

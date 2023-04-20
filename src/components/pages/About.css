@@ -1,56 +1,66 @@
 .about {
-    margin-top: 10%;
     display: flex;
-    flex-direction: wrap;
-    gap: 50px;
+    flex-direction: row;
     align-items: center;
+    margin-top: 10%;
     justify-content: center;
+    gap: 56px;
 }
+
 .hero-pic {
     width: 20%;
     height: auto;
     border-radius: 100px;
 }
+
 .about-text {
     font-weight: 400;
     color: white;
-    width: 500px;
+    max-width: 500px;
     height: auto;
-    hyphens: auto; 
-	text-align: justify;
+    hyphens: auto;
+    text-align: justify;
     margin: 30px;
     font-size: 1rem;
-    background-color: #111113;
+    background-color: rgba(17, 17, 19, 0.8);
     padding: 60px;
-
 }
 
-.ellipse-about {
-    position: absolute;
-    height: 300px;
-    z-index: -1;
-    mix-blend-mode: hard-light;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 60%;
+@media screen and (max-width: 600px) {
+    .about {
+        margin-top: 100px;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .about-text {
+        hyphens: auto;
+        margin: 16px;
+        padding: 40px;
+    }    
+    .hero-pic {
+        width: 50%;
+    }
+}
+
+.btnDiv{
+    margin-top: 16px;
 }
 
 .about button {
-  justify-content: end;
-  padding: 5px 16px;
-  background-color: #111113;
-  border: 1.5px solid #c5c5c5 !important;
-  cursor: pointer;
-  border-radius: 40px;
-  width: fit-content;
-  margin-top: 16px;
-  font-size: 1rem;
-  font-weight:600;
-  transition: all 0.2s ease-out;
+    justify-content: end;
+    padding: 5px 16px;
+    background-color: transparent;
+    border: 1.5px solid #c5c5c5 !important;
+    cursor: pointer;
+    border-radius: 8px;
+    width: fit-content;
+    margin-top: 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.2s ease-out;
 }
 
 .about button:hover {
-  background-color: #c5c5c5 !important;
-  color: #111113;
+    background-color: #c5c5c5 !important;
+    color: #111113;
 }

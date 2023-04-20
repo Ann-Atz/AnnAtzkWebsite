@@ -227,11 +227,11 @@ t4 {
   left: 50%;
   top: 650px;
   transform: translate(-50%, -50%);
-  background-color: black;
+  background-color: rgba(17, 17, 19, 0.8);
 }
 
 /* ________________Skills_____________________ */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;

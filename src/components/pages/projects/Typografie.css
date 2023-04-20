@@ -1,0 +1,23 @@
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.video-play {
+    width: 200px;
+    height: auto;
+}
+
+.typo-row, .animation-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 26px;
+}
+
+.typo-image {
+    width: 200px;
+}

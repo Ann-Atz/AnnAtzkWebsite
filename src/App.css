@@ -22,3 +22,24 @@ body {
   font-family: 'Sangu';
   src: local('Sangu'), url(./fonts/sangu-regular.ttf) format('truetype');
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(102, 14, 255, 0.69) 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(168, 54, 255, 0.69) 0%, rgba(255, 255, 255, 0) 100%);
+}
