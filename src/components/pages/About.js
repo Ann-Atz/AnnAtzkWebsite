@@ -17,7 +17,7 @@ function About() {
         Durch mein Studium habe ich bereits umfangreiche Erfahrungen und Kenntnisse in diesem Bereich gesammelt und bin
         bestrebt, mein Wissen ständig zu erweitern und zu vertiefen.
         <div className="btnDiv">
-          <button id="downloadBtn" onClick={downloadTxtFile} value="download">Download CV</button>
+          <button id="downloadBtn" onClick={downloadTxtFile} value="download">Lebenslauf</button>
         </div>
       </div>
     </div>

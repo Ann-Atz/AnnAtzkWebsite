@@ -1,6 +1,7 @@
 import React from 'react'
 import './DBforWomen.css'
 
+import mockup from './pic_educare/mockup.png'
 import mockup1 from './pic_educare/mockup1.png'
 import mockup2 from './pic_educare/mockup2.png'
 import shape1 from './pic_educare/shape1.png'
@@ -11,11 +12,14 @@ function DBforWomen() {
   return (
     <db>
       <div className='DB'>
+        <div className='DB-Top'>
         <t1>Train safety for women</t1>
         <t3>find safer routes and spots, communicate with each other and always be prepared for an emergency
         </t3>
       </div>
+      <img src={mockup} className="mockup2-image" alt="img" />
       <img src={mockup1} className="mockup2-image" alt="img" />
+      </div>
       <div className='app-info'>
         <img src={mockup2} className="mockup2-image" alt="img" />
         <t3>Our vision is a life, where women do not have to be afraid of going outside to live their lives. They should be able to do whatever they want without being scared and worried for themselves and their female loved ones. <br></br>
