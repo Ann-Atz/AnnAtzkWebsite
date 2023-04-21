@@ -1,7 +1,55 @@
 .DB {
-    margin-top: 50px;
+    margin-top: 100px;
     font-size: 2rem;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+}
+
+.DB > t3 {
+    max-width: 300px;
+}
+
+.app-info {
+    margin: 126px;
+    display: flex;
+    gap: 80px;
+}
+
+.mockup2-image {
+    max-width: 400px;
+    min-width: 200px;
+    height: auto;
+}
+
+.shape-row {
+    margin-top: 80px;
+    display: flex;
+    justify-content: start;
+}
+
+.shape-image {
+    width: 150px;
+}
+
+.shape-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    min-width: 100px;
+    align-items: center;
+    justify-content: start; /* center vertically */
+    gap: 16px;
+    margin: 0 auto; /* center horizontally */
+  }
+  
+
+.shape-info > t3 {
+    text-align: center;
+}
+
+@media screen and (max-width: 800px){
+.app-info {
+    flex-wrap: wrap;
+}
 }
