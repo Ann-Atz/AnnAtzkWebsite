@@ -292,12 +292,13 @@ t4 {
     position: relative;
 }
 .skill_bar .bar span{
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    background-color: #7b2fff;
-    border-radius: 25px;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(to right, #340dab,#7b4cfc);
+  border-radius: 25px;
 }
+
 .skill_bar .bar .html{
     width: 80%;
     animation: html 2s;

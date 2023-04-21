@@ -24,8 +24,8 @@
 
 .shape-row {
     margin-top: 80px;
-    display: flex;
-    justify-content: start;
+    display: flex-start;
+    justify-content: flex-start;
 }
 
 .shape-image {
@@ -33,12 +33,12 @@
 }
 
 .shape-info {
-    display: flex;
+    display: flex-start;
     flex-direction: column;
     max-width: 200px;
     min-width: 100px;
     align-items: center;
-    justify-content: start; /* center vertically */
+    justify-content: flex-start; /* center vertically */
     gap: 16px;
     margin: 0 auto; /* center horizontally */
   }
