@@ -295,19 +295,19 @@ t4 {
   width: 50%;
   height: 100%;
   position: absolute;
-  background: linear-gradient(to right, #340dab,#7b4cfc);
+  background: linear-gradient(to right, #340dab,#9854ff);
   border-radius: 25px;
 }
 
 .skill_bar .bar .html{
-    width: 80%;
+    width: 70%;
     animation: html 2s;
 }
 @keyframes html {
     0%{
         width: 0%;
     }100%{
-        width: 80%;
+        width: 70%;
     }
 }
 .skill_bar .bar .css{
