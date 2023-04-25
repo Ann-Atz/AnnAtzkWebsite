@@ -28,7 +28,7 @@
 
 .DB-Top t3 {
     padding-left: 8px;
-    max-width: 300px;
+    width: 300px;
 }
 
 .mockup1-image {
@@ -44,6 +44,7 @@
     width: 400px;
 }
 
+/* ___________App Info__________ */
 .app-info {
     margin-left: 100px;
     margin-right: 100px;
@@ -57,10 +58,10 @@
 }
 
 .mockup2-image {
-    max-height: 250px;
-    min-height: 100px;
+    height: 250px;
 }
 
+/* __________Shape___________ */
 .shape-row {
     margin: 200px 60px 0px;
     display: flex;
@@ -94,6 +95,9 @@
     hyphens: auto;
 }
 
+
+/* __________Bottom___________ */
+
 .DB-Bottom{
     margin-top: 40px;
     padding: 100px 100px 100px 100px;
@@ -118,19 +122,112 @@
     font-weight: bold;
 }
 
-/* .examples t3::first-letter {
-    font-size: 1.5em;
-    color: red;
-    font-weight: bold;
-  } */
-  
 
 @media screen and (max-width: 800px){
-.app-info {
-    flex-wrap: wrap;
-}
 .db {
-    margin-left: 50px; 
-    margin-right: 50px;
+    width: 100vw;
+    border-radius: 0px;
+    margin: 0px; 
 }
+
+.DB {
+    margin-right: 0px;
+    padding: 20px 0px;
+}
+
+.DB-Top {
+    height: 80vh;
+}
+
+.DB-Top t0 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+.DB-Top t3 {
+    padding-left: 0px;
+    width: 80vw;
+    margin: 0px;
+}
+
+.mockup1-image {
+    position: relative;
+    margin-top: 8px;
+    translate: -16px;
+    width: 380px;
+}
+
+.function {
+    opacity: 0;
+    width: 0;
+}
+
+.app-info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-info > t3 {
+    width: 90vw;
+    padding: 0px 32px;
+}
+
+.mockup2-image {
+    max-height: 30vh;
+}
+
+
+
+.shape-row {
+    margin: 80px 20px;
+    flex-direction: column;
+}
+
+.shape-image {
+    width: 100px;
+    margin-bottom: 8px;
+}
+
+.shape-info {
+    display: flex-start;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  
+
+.shape-info > t1 {
+    display: flex;
+    justify-content: center;
+}
+
+.shape-info > t3 {
+    text-align: center;
+    hyphens: auto;
+}
+
+
+.DB-Bottom{
+    margin-top: 8px;
+    padding: 20px 32px 56px;
+}
+
+.stichpunkte {
+    padding-top: 20px;
+}
+
+.examples{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+}
+.stichpunkte t3{
+    display: inline;
+}
+.stichpunkte t3 span{
+    font-weight: bolder;
+}
+.emergency{
+    font-weight: bold;
+}
+
 }

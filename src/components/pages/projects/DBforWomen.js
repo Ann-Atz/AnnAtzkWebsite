@@ -55,7 +55,7 @@ function DBforWomen() {
           <t3>Plan <span>safer routes</span> in advance by including safe spots and safe-rated train stations in the route<br></br></t3>
           <t3><span>Contact</span> others who also use the app to be able to travel in groups (trainsharing).<br></br></t3>
           <t3><span>Share</span> planned route or real-time gps coordinates with friends, family or police.<br></br></t3>
-          <t3><span>Emergency </span>board on home screen: </t3>
+          <t3><span>Emergency </span>features on home screen: </t3>
           <div className='examples'>
             <t3>a. <span>Emergency audio recording</span> is triggered by user-defined signs (such as shaking the phone heavily or pushing buttons multiple times)<br></br></t3>
             <t3>b. <span>Emergency call</span> feature allows quick and easy contacting of pre-filled contact numbers in emergency situations.<br></br></t3>
