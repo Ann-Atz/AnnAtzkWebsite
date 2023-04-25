@@ -7,7 +7,6 @@ import meta from '../pages/thumbnails/Metavar.png'
 import db from '../pages/thumbnails/DB.png'
 import skinguide from '../pages/thumbnails/Skinguide.png'
 import typo from '../pages/thumbnails/Typografie.png'
-import Ellipse from '../img/Ellipse.png'
 import "./Home.css"
 
 function Home() {
@@ -39,11 +38,6 @@ function Home() {
         <div className='title2'>Ann-Marie<br />Atzkern
         </div>
         <div className='title3'>Student of IT and Design</div>
-        {/* <div className='container'>
-          <div className='ellipse-title'>
-          <img src={Ellipse} className="ellipse-png" alt="img" />
-          </div>
-          </div> */}
       </div>
 
       <div className='welcome'>

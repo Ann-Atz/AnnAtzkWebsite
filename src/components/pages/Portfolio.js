@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import './Portfolio.css'
 
 import clown from '../img/Clown.jpg'
@@ -23,6 +23,10 @@ import sickle from '../img/sickle.png'
 
 
 function Portfolio() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <div className='portfolio'>

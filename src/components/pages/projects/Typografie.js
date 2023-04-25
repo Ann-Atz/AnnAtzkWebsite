@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Typografie.css';
 import official from './typo/typoanimation.mp4';
 import news from './typo/news.mp4';
@@ -10,6 +10,10 @@ import typo3 from './typo/typo3.jpg';
 import Ellipse from './typo/typo-ellipse.png'
 
 function Typografie() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <div className='video'>

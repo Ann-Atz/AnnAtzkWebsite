@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './App.css';
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -15,9 +15,12 @@ import SkinGuide from "./components/pages/projects/SkinGuide";
 import Typografie from "./components/pages/projects/Typografie";
 import Ellipse from './components/img/Ellipse.png'
 
-// import ScrollButton from "./components/ScrollButton/Scroll";
-
 function App() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       < Navbar />
@@ -40,8 +43,6 @@ function App() {
         <div className='ellipse-welcome'>
           <img src={Ellipse} className="ellipse-png" alt="img" />
         </div></div>
-
-      {/* <ScrollButton /> */}
       < Footer />
     </>
   );

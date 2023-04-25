@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import './DBforWomen.css'
 
 import mockup1 from './pic_educare/mockup1.png'
@@ -9,6 +9,10 @@ import shape3 from './pic_educare/shape3.png'
 import func from './pic_educare/functions.png'
 
 function DBforWomen() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className='db'>
       <div className='DB'>
