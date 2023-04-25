@@ -7,7 +7,6 @@ import tictoc from './typo/tictoc.mp4';
 import typo1 from './typo/typo1.jpg';
 import typo2 from './typo/typo2.jpg';
 import typo3 from './typo/typo3.jpg';
-import Ellipse from './typo/typo-ellipse.png'
 
 function Typografie() {
   useEffect(() => {
