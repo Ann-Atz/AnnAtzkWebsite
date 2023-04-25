@@ -51,13 +51,7 @@ function Home() {
         <div className='Welcome_Text'>Willkommen auf meinem Portfolio. Dies soll Ihnen einen kleinen Einblick in meine Fähigkeiten und Projekte geben. Mein Name ist Ann-Marie und ich bin ein leidenschaftlicher Problemlöser und ein Gestalter im Bereich der UI/UX- und Frontend-Entwicklung. Durch mein Studium habe ich bereits umfangreiche Erfahrungen und Kenntnisse in diesem Bereich gesammelt und bin bestrebt, mein Wissen ständig zu erweitern und zu vertiefen.
         </div>
       </div>
-
-
-      <div className='container'>
-        <div className='ellipse-welcome'>
-          <img src={Ellipse} className="ellipse-png" alt="img" />
-        </div></div>
-
+      
       <div className="code-block">
         <div className='title-container'>
           <div className="hometitle">Featured Work</div>
@@ -76,7 +70,6 @@ function Home() {
               <form className="home" action="https://educaregruppef.onrender.com/" target="_blank">
                 <button type="submit">View Project</button>
               </form>
-
             </div></div>
 
           <div className='project-box'>
@@ -86,10 +79,14 @@ function Home() {
               <t2>2. Semester</t2>
               <t3>Die perfekte Webseite zur Partyplanung! Wir helfen Gastgebern und Gästen, Essen, Musik und Spiele einfacher zu organisieren.</t3>
               <t4>Tools: Gitlab, Figma, Scrum</t4>
-              <form className="home">
+              {/* <form className="home">
                 <button type="submit"><Link className='link' to="/HastaLaFiesta">View Project</Link></button>
+              </form> */}
+              <form className="home" action="https://www.figma.com/proto/1lj1ArHfLqTqzSPqbxgJF9/Hasta-Link?page-id=0%3A1&node-id=1-1857&viewport=722%2C549%2C0.06&scaling=min-zoom&starting-point-node-id=1%3A1857&show-proto-sidebar=1" target="_blank">
+                <button type="submit">View Project</button>
               </form>
             </div></div>
+            
 
           <div className='project-box'>
             <img src={meta} className="project-image" alt="img" />
@@ -145,7 +142,7 @@ function Home() {
           {isVisible ? (
             <div className="skills_section">
               <div className="skills_head">
-                <h2>My <span>Skills</span></h2>
+                <div className='hometitle'>My Skills</div>
                 <p>Meine Kenntnisse in Design und Informatik</p>
               </div>
               <div className="skills_main">

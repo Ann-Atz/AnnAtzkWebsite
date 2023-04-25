@@ -13,6 +13,7 @@ import Metavar from "./components/pages/projects/Metavar";
 import DBforWomen from "./components/pages/projects/DBforWomen";
 import SkinGuide from "./components/pages/projects/SkinGuide";
 import Typografie from "./components/pages/projects/Typografie";
+import Ellipse from './components/img/Ellipse.png'
 
 // import ScrollButton from "./components/ScrollButton/Scroll";
 
@@ -35,6 +36,11 @@ function App() {
           </Routes>
         </div>
       </div>
+      <div className='container'>
+        <div className='ellipse-welcome'>
+          <img src={Ellipse} className="ellipse-png" alt="img" />
+        </div></div>
+
       {/* <ScrollButton /> */}
       < Footer />
     </>

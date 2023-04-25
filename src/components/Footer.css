@@ -55,7 +55,7 @@ footerspan {
 
 .Footer-Bottom {
     text-align: center;
-    background-color: #111113;
+    background-color: rgba(17, 17, 19, 0.7);
     width: 100%;
     font-size: 8px;
     color: white;
@@ -93,9 +93,6 @@ footer p {
     }
     footerspan {
         gap: 50px;
-    }
-    .Footer-Bottom{
-        translate: 10px;
     }
   }
   

@@ -30,11 +30,12 @@ function Footer() {
                         <p><a href="https://www.linkedin.com/in/ann-marie-atzkern-712675217/" title="policy" target="_blank" className="w3-hover-text-green" rel="noreferrer">Linkedin</a></p>
                     </div>
                 </div>
-                
+
             </footerspan>
 
+        </footer>
 
-        </footer><div className="Footer-Bottom">
+            <div className="Footer-Bottom">
                 <p>@ Copyright 2023 | Made by Ann-Marie</p>
             </div></>
     )

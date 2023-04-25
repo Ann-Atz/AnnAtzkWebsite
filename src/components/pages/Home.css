@@ -9,24 +9,22 @@
   color: white;
   justify-content: center;
   font-size: 2.5rem;
-  font-weight: 800;  z-index: 1;
+  font-weight: 600;
 }
 
 .homeundertitle {
-  color: #8A8A8A;
+  color: #ffffff;
   justify-content: center;
   font-size: 1.15rem;
   font-weight: 400;
-  z-index: 1;
-  margin-top: 0; /* remove the margin-top value */
+  margin-top: 0; 
+  opacity: 80%;
 }
 
-/* ________________Hero Section_____________________ */
+/* ________________Project Section_____________________ */
 
 .code-block {
   position: relative;
-  /* margin-top: 30px; */
-  z-index: 1;
 }
 
 .project {
@@ -35,7 +33,6 @@
   max-width: 1000px;
   margin: auto;
   padding: 60px 50px;
-  z-index: 1;
 }
 
 
@@ -106,7 +103,7 @@ t4 {
   justify-content: end;
   padding: 3px 10px;
   background-color: transparent;
-  border: 1.5px solid #c5c5c5 !important;
+  border: 1.5px solid #ffffff !important;
   cursor: pointer;
   border-radius: 40px;
   width: fit-content;
@@ -117,7 +114,7 @@ t4 {
 }
 
 .home button:hover {
-  background-color: #c5c5c5 !important;
+  background-color: #ffffff !important;
   color: #111113;
 }
 
@@ -136,56 +133,11 @@ t4 {
   color: #111113;
 }
 
+/* ___________________Hero Section_____________________ */
 
-
-/* ________________Hero Section_____________________ */
-
-/*
-.ellipse-png {
-  background: radial-gradient(50% 50% at 50% 50%, rgba(149, 14, 255, 0.69) 0%, rgba(255, 255, 255, 0) 100%);
-  mix-blend-mode: hard-light;
-  opacity: 50%;
-  z-index: -1;
-}
-
-.container {
-  background-size: cover; 
-  background-position: center; 
-}
-
-.ellipse-title {
-  position: relative;
-  height: 700px;
-  width: 700px;
-  z-index: -1;
-  top: 20px;
-  mix-blend-mode: hard-light;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.ellipse-welcome {
-  height: 1300px;
-  width: 1300px;
-  z-index: -1;
-  mix-blend-mode: hard-light;
-  top: 750px;
-} */
-
-
-
-.ellipse-welcome {
-  height: 100%;
-  width: auto;
-  z-index: -1;
-  mix-blend-mode: hard-light;
-  top: 750px;
-} 
 .hero_container {
   text-align: center;
   padding-top: 200px;
-  z-index: 1;
 }
 
 * {
@@ -194,6 +146,7 @@ t4 {
 
 .title1 {
   font-size: 1.8rem;
+  font-family: 'Sangu', sans-serif;
   z-index: 100;
   margin: 0 auto;
 }
@@ -205,7 +158,6 @@ t4 {
 }
 
 .title3 {
-  font-family: 'poppins', sans-serif;
   font-size: 1rem;
   margin-top: 4px;
 }
@@ -217,16 +169,13 @@ t4 {
 }
 
 .welcome {
-  z-index: 1;
+  position: relative;
   font-size: 1rem;
   width: 500px;
   hyphens: auto;
   text-align: justify;
   padding: 60px;
-  position: relative;
-  left: 50%;
-  top: 650px;
-  transform: translate(-50%, -50%);
+  margin: 300px auto 300px;
   background-color: rgba(17, 17, 19, 0.7);
 }
 
@@ -391,12 +340,16 @@ t4 {
 
 /*for phone screen*/
 @media screen and (max-width: 600px) {
-  
+  .title2 {
+    font-size: 4rem;
+   }  
+
   .ellipse-welcome {
     overflow: hidden;
   }
   .welcome {
-    width: 450px;
+    width: 100vw;
+    padding: 48px;
   }
   .code-block{
     margin-bottom: -200px;
