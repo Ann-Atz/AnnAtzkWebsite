@@ -2,6 +2,7 @@ import React from 'react';
 import './About.css';
 import ann from '../img/HeroPic.jpg';
 import resume from '../pages/Lebenslauf.pdf';
+import { FiExternalLink } from 'react-icons/fi';
 
 function About() {
   const downloadTxtFile = () => {
@@ -12,14 +13,17 @@ function About() {
   return (
     <div className='about'>
       <img src={ann} className="hero-pic" alt="img" />
-      
       <div className='about-text'>
       Mein Name ist Ann-Marie und ich bin ein leidenschaftlicher Problemlöser und Gestalter im Bereich der UI/UX- und Frontend-Entwicklung. 
       Durch meine langjährige Aufgewachsenheit in Asien und meine Liebe zur Digitalkunst habe ich einen einzigartigen kulturellen Hintergrund und eine künstlerische Ader, die ich auch in meine Arbeit einfließen lasse. 
       Aktuell studiere ich Informatik und Design im 4. Semester und sammle dabei umfangreiche Erfahrungen und Kenntnisse. Ich bin stets bestrebt, mein Wissen zu erweitern und zu vertiefen, um durch meine Arbeit einen positiven Beitrag zur Verbesserung der digitalen Welt zu leisten. 
       <br></br>Wenn Sie Interesse an meiner Arbeit haben oder Fragen haben, zögern Sie nicht, mich zu kontaktieren. Ich freue mich darauf, von Ihnen zu hören!<div className="btnDiv">
-          <button id="downloadBtn" onClick={downloadTxtFile} value="download">Lebenslauf</button>
-        </div>
+      <div className="btnDiv">
+        <button id="downloadBtn" onClick={downloadTxtFile} value="download">
+         Lebenslauf <FiExternalLink className="icon-fi"/>
+        </button>
+      </div>        
+    </div>
       </div>
     </div>
   );

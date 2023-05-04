@@ -28,9 +28,12 @@ function Portfolio() {
   }, []);
 
   return (
-    <>
+    <portfolio>
       <div className='portfolio'>
-
+        <div className='port-text'>
+          <t1>Digital and Watercolor Artworks</t1>
+          <t3>Ich bin ein großer Fan von Aquarell- und digitaler Kunst. Ich habe mit traditioneller Kunst angefangen, mich aber schnell in die unendlichen Möglichkeiten der digitalen Kunst verliebt. Meine Arbeit reicht von realistisch bis cartoonhaft und ich erkunde immer neue Stile und Techniken.</t3>
+        </div>
         <div className='portfolio-column'>
           <img src={diji} className="gallery-image" alt="img" />
           <img src={line} className="gallery-image" alt="img" />
@@ -58,13 +61,13 @@ function Portfolio() {
           <img src={birb} className="gallery-image" alt="img" />
           <img src={bouqet} className="gallery-image" alt="img" />
           <img src={chinese} className="gallery-image" alt="img" />
-          <img src={clancy} className="gallery-image" alt="img" />   
+          <img src={clancy} className="gallery-image" alt="img" />
           <img src={sickle} className="gallery-image" alt="img" />
-     
-          </div>
+
+        </div>
 
       </div>
-</>
+    </portfolio>
 
   )
 }

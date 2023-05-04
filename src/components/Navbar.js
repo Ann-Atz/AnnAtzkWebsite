@@ -49,7 +49,7 @@ const Navbar = (props) => {
             Home
           </Link>
           <Link to="/Portfolio" className={`Portfolio ${location.pathname === "/Portfolio" ? "active" : ""}`}>
-            Portfolio
+            Artworks
           </Link>
           <Link to="/About" className={`About ${location.pathname === "/About" ? "active" : ""}`}>
             About

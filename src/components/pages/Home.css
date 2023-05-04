@@ -1,3 +1,7 @@
+/* div {
+  border: 1px solid red;
+} */
+
 .title-container {
   display: flex;
   flex-direction: column;
@@ -17,7 +21,6 @@
   justify-content: center;
   font-size: 1.15rem;
   font-weight: 400;
-  margin-top: 0; 
   opacity: 80%;
 }
 
@@ -82,9 +85,10 @@ t3 {
 }
 
 t4 {
-  color: darkgrey;
+  color: white;
   font-size: 0.8rem;
   margin-bottom: 4px;
+  opacity: 0.9;
 }
 
 .project-image {
@@ -126,7 +130,7 @@ t4 {
 
 .link {
   text-decoration: none;
-  color: #8A8A8A;
+  color: #ffffff;
 }
 
 .link:hover {

@@ -1,0 +1,104 @@
+.meta {
+    padding-top: 240px;
+}
+
+/* ______meta-info______ */
+
+.meta-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.meta-info {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    margin: 200px 32px;
+}
+.meta-info1 > t1, .meta-info2 > t1 {
+    font-weight: 700;
+}
+.meta-info1 {
+    width: 400px;
+    display: grid;
+    padding-top: 48px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.meta-info2 {
+    width: 400px;
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+
+.meta > t3 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.meta-info > t3 {
+    hyphens: auto;
+    text-align: justify;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+}
+
+metpics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 48px;
+}
+
+
+
+.process-pic {
+    width: 50vw;
+}
+
+.meta-def {
+    font-weight: 400;
+    color: white;
+    max-width: 600px;
+    height: auto;
+    hyphens: auto;
+    text-align: justify;
+    margin: 48px;
+    font-size: 1rem;
+    background-color: rgba(17, 17, 19, 0.7);
+    padding: 60px;
+}
+
+.meta-process{
+    padding-top: 56px;
+}
+
+/* __________________small screen___________________ */
+
+@media screen and (max-width: 768px) {
+    .meta-info {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+
+    .meta-info1 {
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .meta-info2 {
+        grid-row: 2;
+        grid-column: 1;
+    }
+}

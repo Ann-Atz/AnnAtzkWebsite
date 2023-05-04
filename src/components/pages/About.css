@@ -64,3 +64,10 @@
     background-color: #c5c5c5 !important;
     color: #111113;
 }
+
+.icon-fi {
+    transform: translate(4px, 2px);
+    mix-blend-mode: difference;
+    stroke-width: 2.5;
+  }
+  
