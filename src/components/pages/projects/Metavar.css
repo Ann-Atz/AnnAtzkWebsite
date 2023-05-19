@@ -1,5 +1,6 @@
 .meta {
     padding-top: 240px;
+    translate: -300px;
 }
 
 /* ______meta-info______ */
@@ -13,31 +14,35 @@
     margin: 0 auto;
 }
 
-.meta-info {
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 10px;
-    justify-items: center;
-    align-items: center;
-    margin: 200px 32px;
+.metagirl {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100 vh;
+    z-index: -1;
 }
+
+.meta-info {
+    display: flex;
+    justify-content: center;
+    margin: 680px 0px 180px;
+    gap: 135px;
+}
+
 .meta-info1 > t1, .meta-info2 > t1 {
     font-weight: 700;
 }
+
 .meta-info1 {
     width: 400px;
-    display: grid;
-    padding-top: 48px;
-    grid-column: 1;
-    grid-row: 1;
+    height: auto;
 }
 
 .meta-info2 {
     width: 400px;
-    display: grid;
-    grid-column: 2;
-    grid-row: 2;
+    height: auto;
 }
+
 
 
 .meta > t3 {
@@ -52,15 +57,18 @@
     grid-template-columns: auto auto auto;
 }
 
+.meta-info1 > t1 , .meta-info2 > t1 {
+    line-height: 2.5;
+}
+
 metpics{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     row-gap: 48px;
+    padding: 0 16px 0;
 }
-
-
 
 .process-pic {
     width: 50vw;
@@ -73,10 +81,14 @@ metpics{
     height: auto;
     hyphens: auto;
     text-align: justify;
-    margin: 48px;
     font-size: 1rem;
     background-color: rgba(17, 17, 19, 0.7);
     padding: 60px;
+    margin: 60px;
+}
+
+.meta-def > t1{
+    line-height: 2.5;
 }
 
 .meta-process{
@@ -86,19 +98,39 @@ metpics{
 /* __________________small screen___________________ */
 
 @media screen and (max-width: 768px) {
+    .meta {
+        padding: 280px 0;
+        translate: 0px;
+    }
+    .meta-pic{
+        width: 50%;
+    }
+    .metagirl {
+        opacity: 0;
+    }
     .meta-info {
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
-        justify-content: center;
+        flex-direction: column;
+        padding: 24px;
+        margin: 0;
+        gap:24px;
+    }
+    .meta-info1, .meta-info2{
+        width: auto;
+    }
+    .meta-info1 > t1 , .meta-info2 > t1 {
+        line-height: 2;
     }
 
-    .meta-info1 {
-        grid-row: 1;
-        grid-column: 1;
-    }
 
-    .meta-info2 {
-        grid-row: 2;
-        grid-column: 1;
+    .meta-def {
+        margin: 0 auto;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 24px;
     }
+    .process-pic {
+        width: 90vw;
+    }
+    
 }

@@ -32,7 +32,7 @@ function Portfolio() {
       <div className='portfolio'>
         <div className='port-text'>
           <t1>Digital and Watercolor Artworks</t1>
-          <t3>Ich bin ein großer Fan von Aquarell- und digitaler Kunst. Ich habe mit traditioneller Kunst angefangen, mich aber schnell in die unendlichen Möglichkeiten der digitalen Kunst verliebt. Meine Arbeit reicht von realistisch bis cartoonhaft und ich erkunde immer neue Stile und Techniken.</t3>
+          <t3>Hier sind einige ausgewählte Werke aus meinem Kunst Portfolio. Ich bin ein großer Fan von Aquarell- und digitaler Kunst. Ich habe mit traditioneller Kunst angefangen, mich aber schnell in die unendlichen Möglichkeiten der digitalen Kunst verliebt. Meine Arbeit reicht von realistisch bis cartoonhaft und ich erkunde immer neue Stile und Techniken.</t3>
         </div>
         <div className='portfolio-column'>
           <img src={diji} className="gallery-image" alt="img" />

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import './Metavar.css';
 import metavar from './pic_metavar/Metavar.png'
+import metagirl from './pic_metavar/metapic.jpg'
 import userjourney from './pic_metavar/userjourney.png'
 import fpa from './pic_metavar/fpa.jpg'
 import fpcm from './pic_metavar/fpcm.jpg'
@@ -18,6 +19,7 @@ function Metavar() {
           Gestalte noch heute deinen eigenen Avatar.<br></br>
           Sei individuell, sei du selbst!</t3>
       </div>
+      <img src={metagirl} className='metagirl' alt='img' />
       <div className='meta-info'>
         <div className='meta-info1'>
           <t1>Das Avatar Design Studio</t1>
@@ -25,7 +27,7 @@ function Metavar() {
           <t3>Sei kreativ bei der Auswahl deines Aussehens und entfalte deine Fantasie</t3>
         </div>
         <div className='meta-info2'>
-          <t1>Fühlst du dich wohl in deinem Körper?</t1>
+          <t1>Freiheit des individuellen Ausdrucks</t1>
           <t3>In der echten Welt sind wir von unserem Körper eingeschrankt, aber in der Metaverse befreien wir dich von diesem Hindernis. Mit METAVAR kommst du weg von den langweiligen und immer gleich aussehenden Charakteren im Metaverse und hast somit mehr Spaß in der Nutzung. Nie wieder müsst ihr Stunden verbringen in einem Salon, bei uns im Design Studio kannst du innerhalb von Sekunden alle mögliche Haarfarben ausprobieren</t3>
         </div>
       </div>

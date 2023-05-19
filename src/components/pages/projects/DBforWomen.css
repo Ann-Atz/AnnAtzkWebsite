@@ -116,6 +116,10 @@
     padding-bottom: 20px;
     padding-left: 24px;
 }
+.examples > t3 {
+    line-height: 1.8;
+}
+
 .stichpunkte t3{
     display: inline;
 }
