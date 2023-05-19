@@ -1,0 +1,48 @@
+.gen-text{
+    padding: 100px 40px 0px 40px;
+    text-align: left;  
+}
+.gen-text > t1 {
+    line-height: 2.5;
+}
+  
+.generative {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1000px;
+    margin: auto;
+    row-gap: 20px;
+    padding-top: 3%;
+  }
+  
+.gen-image {
+    width: 200px;
+    height: auto;
+}
+.bus-image {
+    width: 71vw;
+    height: auto;
+    padding: 24px 0px 80px;
+}
+
+.gen-posters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.gen-video {
+    width: auto;
+    height: auto;
+}
+.gen-videos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+  
+  

@@ -6,7 +6,8 @@ import hasta from '../pages/thumbnails/Hasta.png'
 import meta from '../pages/thumbnails/Metavar.png'
 import db from '../pages/thumbnails/DB.png'
 import skinguide from '../pages/thumbnails/Skinguide.png'
-import typo from '../pages/thumbnails/Typografie.png'
+// import typo from '../pages/thumbnails/Typografie.png'
+import generative from '../pages/thumbnails/Generative.png'
 import "./Home.css"
 
 function Home() {
@@ -118,18 +119,30 @@ function Home() {
               </form>
             </div></div>
 
-          <div className='project-box'>
+          {/* <div className='project-box'>
             <img src={typo} className="project-image" alt="img" />
             <div className='project-text'>
               <t1>Typografie</t1>
-              {/* <t2>1. Semester</t2> */}
               <t3>Typografische Poster zum Thema soziale Angst, um zu zeigen, wie belastend soziale Ängste sein können.</t3>
               <t4>Tools: Photoshop</t4>
               <form className="home">
                 <button type="submit"><Link className='link' to="/Typografie">View Project</Link></button>
               </form>
             </div></div>
+        </div> */}
+        
+        <div className='project-box'>
+            <img src={generative} className="project-image" alt="img" />
+            <div className='project-text'>
+              <t1>Generatives Design</t1>
+              <t3>Generative Poster und Animationen: Visualisierung der Lichtverschmutzung und ihre Auswirkungen auf das Verhalten von Vögeln.</t3>
+              <t4>Tools: After Effects, Photoshop, p5.js</t4>
+              <form className="home">
+                <button type="submit"><Link className='link' to="/Generative">View Project</Link></button>
+              </form>
+            </div></div>
         </div>
+
       </div>
       <skills>
         <div ref={ref}>

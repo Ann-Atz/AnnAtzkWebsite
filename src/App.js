@@ -13,6 +13,7 @@ import Metavar from "./components/pages/projects/Metavar";
 import DBforWomen from "./components/pages/projects/DBforWomen";
 import SkinGuide from "./components/pages/projects/SkinGuide";
 import Typografie from "./components/pages/projects/Typografie";
+import Generative from "./components/pages/projects/Generative";
 import Ellipse from './components/img/Ellipse.png'
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
             <Route path="/DBforWomen" element={<DBforWomen />} />
             <Route path="/SkinGuide" element={<SkinGuide />} />
             <Route path="/Typografie" element={<Typografie />} />
+            <Route path="/Generative" element={<Generative />} />
           </Routes>
         </div>
       </div>
