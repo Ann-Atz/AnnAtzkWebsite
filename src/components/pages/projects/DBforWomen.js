@@ -17,14 +17,17 @@ function DBforWomen() {
     <div className='db'>
       <div className='DB'>
         <div className='DB-Top'>
-          <t0>Train safety for women</t0>
-          <t3>find safer routes and spots, communicate with each other and always be prepared for an emergency
+          <t0>Train Safety App</t0>
+          <t3>Find better routes and safe spots, communicate with each other and always be prepared for an emergency with our safety app
           </t3>
           <img src={func} className="function" alt="img" />
           <img src={mockup1} className="mockup1-image" alt="img" />
         </div>
       </div>
-
+      <div className='DB-Middle'>
+      <t1>Service Design</t1>
+      <t3>Our app, developed as part of a service design course, aims to address the safety concerns of women when using public transport, particularly at night. By providing a user-friendly platform, we strive to empower women with the tools and information they need to navigate confidently, fostering a world where safety is accessible to all.</t3>
+      </div>
       <div className='app-info'>
         <img src={mockup2} className="mockup2-image" alt="img" />
         <t3>Our vision is a life, where women do not have to be afraid of going outside to live their lives. They should be able to do whatever they want without being scared and worried for themselves and their female loved ones. <br></br>
@@ -45,7 +48,7 @@ function DBforWomen() {
         <div className='shape-info'>
           <img src={shape2} className="shape-image" alt="img" />
           <t1>Feelings</t1>
-          <t3>fear of sexual harassment, stress, catcalling, inequality</t3>
+          <t3>FEAR of sexual harassment, stress, catcalling, inequality</t3>
         </div>
         <div className='shape-info'>
           <img src={shape3} className="shape-image" alt="img" />

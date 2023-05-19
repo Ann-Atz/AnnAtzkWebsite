@@ -252,17 +252,19 @@ t4 {
   border-radius: 25px;
 }
 
+/* Photoshop */
 .skill_bar .bar .html{
-    width: 70%;
+    width: 75%;
     animation: html 2s;
 }
 @keyframes html {
     0%{
         width: 0%;
     }100%{
-        width: 70%;
+        width: 75%;
     }
 }
+/* JS */
 .skill_bar .bar .css{
     width: 25%;
     animation: css 2s;
@@ -274,28 +276,31 @@ t4 {
         width: 25%;
     }
 }
+/* After Effects */
 .skill_bar .bar .sass{
-    width: 55%;
+    width: 70%;
     animation: sass 2s;
 }
 @keyframes sass {
     0%{
         width: 0%;
     }100%{
-        width: 55%;
+        width: 70%;
     }
 }
+/* CSS */
 .skill_bar .bar .js{
-    width: 80%;
+    width: 50%;
     animation: js 2s;
 }
 @keyframes js {
     0%{
         width: 0%;
     }100%{
-        width: 80%;
+        width: 50%;
     }
 }
+/* Figma */
 .skill_bar .bar .react{
     width: 90%;
     animation: react 2s;
@@ -307,6 +312,7 @@ t4 {
         width: 90%;
     }
 }
+/* Python */
 .skill_bar .bar .node{
     width: 40%;
     animation: node 2s;
@@ -318,6 +324,7 @@ t4 {
         width: 40%;
     }
 }
+/* Illustrator */
 .skill_bar .bar .express{
     width: 25%;
     animation: express 2s;
@@ -329,15 +336,16 @@ t4 {
         width: 25%;
     }
 }
+/* React */
 .skill_bar .bar .mongo{
-    width: 60%;
+    width: 55%;
     animation: mongo 2s;
 }
 @keyframes mongo {
     0%{
         width: 0%;
     }100%{
-        width: 60%;
+        width: 55%;
     }
 }
 
