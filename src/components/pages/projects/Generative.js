@@ -7,7 +7,6 @@ import berlin_ani from './pic_generative/Licht1.mp4'
 import berlin_ani2 from './pic_generative/Licht2.mp4'
 import berlin_ani3 from './pic_generative/Licht3.mp4'
 import mockbus1 from './pic_generative/mockbus1.png'
-import mockbus2 from './pic_generative/mockbus2.png'
 
 function Generative() {
     useEffect(() => {
