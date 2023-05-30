@@ -119,13 +119,13 @@ t4 {
 
 .home button:hover {
   background-color: #ffffff !important;
-  color: #111113;
+  color: #07070b;
 }
 
 .home button:active {
   border: white;
   background-color: white !important;
-  color: #111113;
+  color: #07070b;
 }
 
 .link {
@@ -134,7 +134,7 @@ t4 {
 }
 
 .link:hover {
-  color: #111113;
+  color: #07070b;
 }
 
 /* ___________________Hero Section_____________________ */
