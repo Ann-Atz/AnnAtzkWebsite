@@ -28,31 +28,31 @@ function Generative() {
                     <div className='gen-posters'>
                         <img src={mockbus1} className="bus-image" alt="img" />
                     </div>
-
-                    <div className='gen-videos'>
-                    <div className='gen-video'>
-                        <video className="video-play" autoPlay loop muted>
-                            <source src={berlin_ani} type="video/mp4" />
-                        </video>
-                    </div>
-                    <div className='gen-video'>
-                        <video className="video-play" autoPlay loop muted>
-                            <source src={berlin_ani2} type="video/mp4" />
-                        </video>
-                    </div>
-                    <div className='gen-video'>
-                        <video className="video-play" autoPlay loop muted>
-                            <source src={berlin_ani3} type="video/mp4" />
-                        </video>
+                    <div className='comp'>
+                        <div className='gen-posters'>
+                            <img src={berlin1} className="gen-image" alt="img" />
+                            <img src={berlin2} className="gen-image" alt="img" />
+                            <img src={berlin3} className="gen-image" alt="img" />
+                        </div>
+                        <div className='gen-videos'>
+                            <div className='gen-video'>
+                                <video className="video-play" autoPlay loop muted>
+                                    <source src={berlin_ani} type="video/mp4" />
+                                </video>
+                            </div>
+                            <div className='gen-video'>
+                                <video className="video-play" autoPlay loop muted>
+                                    <source src={berlin_ani2} type="video/mp4" />
+                                </video>
+                            </div>
+                            <div className='gen-video'>
+                                <video className="video-play" autoPlay loop muted>
+                                    <source src={berlin_ani3} type="video/mp4" />
+                                </video>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div className='gen-posters'>
-                    <img src={berlin1} className="gen-image" alt="img" />
-                    <img src={berlin2} className="gen-image" alt="img" />
-                    <img src={berlin3} className="gen-image" alt="img" />
-                </div>
-                </div>
-                
             </div>
         </>
     );

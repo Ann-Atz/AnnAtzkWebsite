@@ -22,7 +22,7 @@
 .bus-image {
     width: 71vw;
     height: auto;
-    padding: 24px 0px 80px;
+    padding: 48px 0px 80px;
 }
 
 .gen-posters {
@@ -36,13 +36,17 @@
     width: auto;
     height: auto;
 }
+
+
 .gen-videos {
     display: flex;
     align-items: center;
     justify-content: center;
     justify-content: space-between;
-    padding-bottom: 80px;
+    padding-top: 100px;
 }
-
-  
+/* 
+.comp {
+    padding: 50px;
+}   */
   

@@ -2,7 +2,7 @@
     border-radius: 10px;
     margin-left: 150px; 
     margin-right: 150px;
-    background: linear-gradient(to right, #c092e4,#7471d2);
+    background: linear-gradient(to right, #9c72c1,#4744a1);
 }
 
 .DB {
@@ -31,9 +31,9 @@
     width: 380px;
 }
 
-
 .DB-Middle{
-    padding: 0px 100px 16px 100px;
+    padding: 100px 100px 16px 100px;
+    margin-top: -200px;
 }
 
 .mockup1-image {
@@ -68,7 +68,7 @@
 
 /* __________Shape___________ */
 .shape-row {
-    margin: 160px 60px 0px;
+    margin: 120px 60px 0px;
     display: flex;
     justify-content: flex-start;
     text-align: center;
@@ -76,7 +76,7 @@
 
 .shape-image {
     width: 150px;
-    mix-blend-mode: color-dodge;
+    /* mix-blend-mode: color-dodge; */
     opacity: 70%;
     margin-bottom: 20px;
 }
@@ -104,7 +104,7 @@
 
 .DB-Bottom{
     margin-top: 40px;
-    padding: 100px 100px 100px 100px;
+    padding: 40px 100px 100px 100px;
 }
 
 .stichpunkte {
