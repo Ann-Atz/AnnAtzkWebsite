@@ -142,6 +142,7 @@ t4 {
 .hero_container {
   text-align: center;
   padding-top: 200px;
+  overflow: hidden;
 }
 
 * {
