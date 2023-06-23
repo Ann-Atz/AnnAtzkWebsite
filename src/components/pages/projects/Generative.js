@@ -23,7 +23,7 @@ function Generative() {
                         Unser Projekt befasste sich damit, die Auswirkungen von Lichtverschmutzung auf das Verhalten von Vögeln zu visualisieren. Mit Hilfe von p5.js konnten wir die Flugrouten und Verhaltensweisen der Vögel in Bezug auf Lichtverschmutzung darstellen.
                         <br></br>
                         <br></br>
-                        Unsere Poster erzählen eine Geschichte von Vögeln, die auf ihrem Heimweg von künstlichen Lichtquellen verwirrt werden. Die Poster zeigen auf einfache und abstrakte Weise, wie sich das Verhalten der Vögel verändert, wenn sie dem Licht näher kommen. Ihre Flugbahnen werden chaotischer und desorientierter dargestellt. Dadurch möchten wir auf die Auswirkungen der Lichtverschmutzung auf die natürliche Orientierung der Vögel aufmerksam machen. Die Poster regen dazu an, über die Konsequenzen menschlicher Aktivitäten nachzudenken und umweltfreundlichere Lösungen zu finden.
+                        Dabei erzählen unsere Poster eine Geschichte von Vögeln, die auf ihrem Heimweg von künstlichen Lichtquellen verwirrt werden. Die Poster zeigen auf einfache und abstrakte Weise, wie sich das Verhalten der Vögel verändert, wenn sie dem Licht näher kommen. Ihre Flugbahnen werden chaotischer und desorientierter dargestellt. Dadurch möchten wir auf die Auswirkungen der Lichtverschmutzung auf die natürliche Orientierung der Vögel aufmerksam machen. Die Poster regen dazu an, über die Konsequenzen menschlicher Aktivitäten nachzudenken und umweltfreundlichere Lösungen zu finden.
                     </t3>
                     <div className='gen-posters'>
                         <img src={mockbus1} className="bus-image" alt="img" />

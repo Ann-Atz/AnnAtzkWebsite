@@ -79,45 +79,48 @@ function Home() {
 
   return (
     <>
-        <motion.div className="hero_container"
-        initial={{ opacity: 0, y: -10}}
-        animate={{opacity: 1, y: 0, transition: { duration: 1.1 }}}>
-          <div className="title1">Hi, I'm </div>
-          <div className="title2">
-            Ann-Marie
-            <br />
-            Atzkern
-          </div>
-          <div className="title3">Student of IT and Design</div>
-        </motion.div>
+      <motion.div className="hero_container"
+        initial={{ opacity: 0, y: -10 }}
+        animate={{ opacity: 1, y: 0, transition: { duration: 1.1 } }}>
+        <div className="title1">Hi, I'm </div>
+        <div className="title2">
+          Ann-Marie
+          <br />
+          Atzkern
+        </div>
+        <div className="title3">Student of IT and Design</div>
+      </motion.div>
 
       <Reveal>
         <div className='welcome'>
-          <div className='title4'>Hallo!</div>
-          <div className='Welcome_Text'>Willkommen auf meinem Portfolio. Dies soll Ihnen einen kleinen Einblick in meine Fähigkeiten und Projekte geben. Mein Name ist Ann-Marie und ich bin ein leidenschaftlicher Problemlöser und ein Gestalter im Bereich der UI/UX- und Frontend-Entwicklung. Durch mein Studium habe ich bereits umfangreiche Erfahrungen und Kenntnisse in diesem Bereich gesammelt und bin bestrebt, mein Wissen ständig zu erweitern und zu vertiefen.
+          <div className='title4'>Willkommen!</div>
+          <div className='Welcome_Text'>Schön, dass du auf meiner Webseite gelandet bist. Hier bekommst du einen kleinen Einblick in meine Fähigkeiten und Projekte. Mein Name ist Ann-Marie und ich bin begeistert von der Problemlösung und dem Design im Bereich UI/UX und Frontend-Entwicklung. Mit meiner Kombination aus Kreativität und technischem Know-how entwickle ich innovative Lösungen für ansprechendes Design und nahtlose Benutzererfahrungen. Auf meiner Webseite findest du einen Überblick über meine Projekte 
           </div>
         </div>
       </Reveal>
 
-      <Reveal>
-        <div className="code-block">
+      <div className="code-block">
+        <Reveal>
           <div className='title-container'>
             <div className="hometitle">Featured Work</div>
-            <h3 className="homeundertitle">Projekte für Hochschule München</h3></div>
-          <div className="project">
+            <h3 className="homeundertitle">Hier findet ihr einen Einblick in meine Projekte</h3></div>
+        </Reveal>
+        <div className="project">
+          <Reveal>
             <div className='project-box'>
               <img src={db} className="project-image" alt="img" />
               <div className='project-text'>
                 <t1>DB for Women</t1>
                 {/* <t2>2. Semester</t2> */}
                 <t3>Für mehr Sicherheit in der Bahn. Die App für Frauen bietet sichere Wege und schnelle Notfallvorbereitung.</t3>
-                <t4>Tools: Figma, Design Thinking</t4>
+                <t4>Tools: Figma, Miro, Design Thinking</t4>
                 <form className="home">
                   <button type="submit"><Link className='link' to="/DBforWOmen">View Project</Link></button>
                 </form>
               </div></div>
+          </Reveal>
 
-
+          <Reveal>
             <div className='project-box'>
               <img src={generative} className="project-image" alt="img" />
               <div className='project-text'>
@@ -128,6 +131,8 @@ function Home() {
                   <button type="submit"><Link className='link' to="/Generative">View Project</Link></button>
                 </form>
               </div></div>
+          </Reveal>
+          <Reveal>
             <div className='project-box'>
               <img src={educare} className="project-image" alt="img" />
               <div className='project-text'>
@@ -141,7 +146,9 @@ function Home() {
       <button type="submit">View Project</button>
     </form> */}
               </div></div>
+          </Reveal>
 
+          <Reveal>
             <div className='project-box'>
               <img src={meta} className="project-image" alt="img" />
               <div className='project-text'>
@@ -153,8 +160,9 @@ function Home() {
                   <button type="submit"><Link className='link' to="/Metavar">View Project</Link></button>
                 </form>
               </div></div>
+          </Reveal>
 
-
+          <Reveal>
             <div className='project-box'>
               <img src={skinguide} className="project-image" alt="img" />
               <div className='project-text'>
@@ -166,6 +174,9 @@ function Home() {
                   <button type="submit">View Project</button>
                 </form>
               </div></div>
+          </Reveal>
+
+          <Reveal>
             <div className='project-box'>
               <img src={hasta} className="project-image" alt="img" />
               <div className='project-text'>
@@ -179,8 +190,9 @@ function Home() {
                   <button type="submit">View Project</button>
                 </form>
               </div></div>
+          </Reveal>
 
-            {/* <div className='project-box'>
+          {/* <div className='project-box'>
       <img src={typo} className="project-image" alt="img" />
       <div className='project-text'>
         <t1>Typografie</t1>
@@ -191,90 +203,90 @@ function Home() {
         </form>
       </div></div>
   </div> */}
+        </div>
+      </div>
+      <Reveal>
+        <skills>
+          <div ref={ref}>
+            {isVisible ? (
+              <div className="skills_section">
+                <div className="skills_head">
+                  <div className='hometitle'>My Skills</div>
+                  <p>Meine Kenntnisse in Design und Informatik</p>
+                </div>
+                <div className="skills_main">
+                  <div className="skill_bar">
+                    <div className="info">
+                      <p>Photoshop</p>
+                    </div>
+                    <div class="bar">
+                      <span class="html"></span>
+                    </div>
+                  </div>
+                  <div class="skill_bar">
+                    <div class="info">
+                      <p>JavaScript</p>
+                    </div>
+                    <div class="bar">
+                      <span class="css"></span>
+                    </div>
+                  </div>
+                  <div class="skill_bar">
+                    <div class="info">
+                      <p>After Effects</p>
+                    </div>
+                    <div class="bar">
+                      <span class="sass"></span>
+                    </div>
+                  </div>
+                  <div class="skill_bar">
+                    <div class="info">
+                      <p>CSS</p>
+                    </div>
+                    <div class="bar">
+                      <span class="js"></span>
+                    </div>
+                  </div>
+                  <div class="skill_bar">
+                    <div class="info">
+                      <p>Figma</p>
+                    </div>
+                    <div class="bar">
+                      <span class="react"></span>
+                    </div>
+                  </div>
+                  <div class="skill_bar">
+                    <div class="info">
+                      <p>Python</p>
+                    </div>
+                    <div class="bar">
+                      <span class="node"></span>
+                    </div>
+                  </div>
+                  <div class="skill_bar">
+                    <div class="info">
+                      <p>Illustrator</p>
+                    </div>
+                    <div class="bar">
+                      <span class="express"></span>
+                    </div>
+                  </div>
+                  <div class="skill_bar">
+                    <div class="info">
+                      <p>React</p>
+                    </div>
+                    <div class="bar">
+                      <span className="mongo"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ) : (
+              'Ann-Marie'
+            )}
           </div>
-        </div>
+        </skills>
       </Reveal>
-
-      <skills>
-        <div ref={ref}>
-          {isVisible ? (
-            <div className="skills_section">
-              <div className="skills_head">
-                <div className='hometitle'>My Skills</div>
-                <p>Meine Kenntnisse in Design und Informatik</p>
-              </div>
-              <div className="skills_main">
-                <div className="skill_bar">
-                  <div className="info">
-                    <p>Photoshop</p>
-                  </div>
-                  <div class="bar">
-                    <span class="html"></span>
-                  </div>
-                </div>
-                <div class="skill_bar">
-                  <div class="info">
-                    <p>JavaScript</p>
-                  </div>
-                  <div class="bar">
-                    <span class="css"></span>
-                  </div>
-                </div>
-                <div class="skill_bar">
-                  <div class="info">
-                    <p>After Effects</p>
-                  </div>
-                  <div class="bar">
-                    <span class="sass"></span>
-                  </div>
-                </div>
-                <div class="skill_bar">
-                  <div class="info">
-                    <p>CSS</p>
-                  </div>
-                  <div class="bar">
-                    <span class="js"></span>
-                  </div>
-                </div>
-                <div class="skill_bar">
-                  <div class="info">
-                    <p>Figma</p>
-                  </div>
-                  <div class="bar">
-                    <span class="react"></span>
-                  </div>
-                </div>
-                <div class="skill_bar">
-                  <div class="info">
-                    <p>Python</p>
-                  </div>
-                  <div class="bar">
-                    <span class="node"></span>
-                  </div>
-                </div>
-                <div class="skill_bar">
-                  <div class="info">
-                    <p>Illustrator</p>
-                  </div>
-                  <div class="bar">
-                    <span class="express"></span>
-                  </div>
-                </div>
-                <div class="skill_bar">
-                  <div class="info">
-                    <p>React</p>
-                  </div>
-                  <div class="bar">
-                    <span className="mongo"></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ) : (
-            'Ann-Marie'
-          )}
-        </div>
-      </skills>
 
     </>
   )

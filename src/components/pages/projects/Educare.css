@@ -4,7 +4,8 @@
     margin-right: 150px;
     background: linear-gradient(to right, #0011F1,#5a62ff);
     margin-top: 100px;
-}
+}    
+
 
 .EDU {
     margin-top: 100px;
@@ -34,7 +35,13 @@
 
 .eduText{
     margin-top: -100px;
-    padding: 0px 100px 100px 100px;
+    padding: 30px 100px 100px 100px;
+    background: white; 
+    border-radius: 0px 0px 10px 10px;
+}
+
+.eduText > t1,.eduText > t3, .stichpunkte > t3,.examples > t3  {
+    color: black;
 }
 
 .examples{

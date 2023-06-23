@@ -26,7 +26,7 @@ function DBforWomen() {
       </div>
       <div className='DB-Middle'>
       <t1>General Info</t1>
-      <t3>Roles: Designer, Researcher | Tools: Figma, Miro
+      <t3>Roles: Designer, Researcher  |  Tools: Figma, Miro, Design Thinking
       </t3>
       <t1>Service Design</t1>
       <t3>Our app, developed as part of a service design course, aims to address the safety concerns of women when using public transport, particularly at night. By providing a user-friendly platform, we strive to empower women with the tools and information they need to navigate confidently, fostering a world where safety is accessible to all.</t3>

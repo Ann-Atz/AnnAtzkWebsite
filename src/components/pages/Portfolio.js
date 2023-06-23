@@ -20,7 +20,10 @@ import nam from '../img/nam.png'
 import promise from '../img/promise.png'
 import reddress from '../img/RedDress.jpg'
 import sickle from '../img/sickle.png'
-
+import pink from '../img/pinkberg.png'
+import cricket from '../img/cricket.png'
+import parrot from '../img/parrot.png'
+import alice from '../img/alice.png'
 
 function Portfolio() {
   useEffect(() => {
@@ -35,10 +38,12 @@ function Portfolio() {
           <t3>Hier sind einige ausgewählte Werke aus meinem Kunst Portfolio. Ich bin ein großer Fan von Aquarell- und digitaler Kunst. Ich habe mit traditioneller Kunst angefangen, mich aber schnell in die unendlichen Möglichkeiten der digitalen Kunst verliebt. Meine Arbeit reicht von realistisch bis cartoonhaft und ich erkunde immer neue Stile und Techniken.</t3>
         </div>
         <div className='portfolio-column'>
-          <img src={diji} className="gallery-image" alt="img" />
+          <img src={alice} className="gallery-image" alt="img" />
           <img src={line} className="gallery-image" alt="img" />
           <img src={nam} className="gallery-image" alt="img" />
           <img src={promise} className="gallery-image" alt="img" />
+          <img src={parrot} className="gallery-image" alt="img" />
+
         </div>
 
         <div className='portfolio-column'>
@@ -47,6 +52,8 @@ function Portfolio() {
           <img src={jazz} className="gallery-image" alt="img" />
           <img src={kimono} className="gallery-image" alt="img" />
           <img src={king} className="gallery-image" alt="img" />
+          <img src={diji} className="gallery-image" alt="img" />
+
         </div>
 
         <div className='portfolio-column'>
@@ -55,14 +62,17 @@ function Portfolio() {
           <img src={sandman} className="gallery-image" alt="img" />
           <img src={portrait} className="gallery-image" alt="img" />
           <img src={viking} className="gallery-image" alt="img" />
+          <img src={cricket} className="gallery-image" alt="img" />
+
         </div>
 
         <div className='portfolio-column'>
-          <img src={birb} className="gallery-image" alt="img" />
           <img src={bouqet} className="gallery-image" alt="img" />
           <img src={chinese} className="gallery-image" alt="img" />
           <img src={clancy} className="gallery-image" alt="img" />
           <img src={sickle} className="gallery-image" alt="img" />
+          <img src={pink} className="gallery-image" alt="img" />
+          <img src={birb} className="gallery-image" alt="img" />
 
         </div>
 

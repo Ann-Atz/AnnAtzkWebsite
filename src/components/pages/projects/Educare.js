@@ -22,7 +22,7 @@ function DBforWomen() {
       
       <div className='eduText'>
         <t1>General Info</t1>
-        <t3>Roles: Research, Design, CSS/HTML  |  Tools: Visual Studio Code, Figma  |  Framework: React Native</t3>
+        <t3>Roles: Research, Design, CSS/HTML  |  Tools: Figma, React Native, Github</t3>
         <t1>Challenge</t1>
         <t3>Wir wollen Geflüchteten helfen, ihre Kinder im Bildungssystem besser zu unterstützen, indem wir kulturelle und sprachliche Barrieren zwischen Familien und Lehrern abbauen. Flüchtlingseltern benötigen noch viel Hilfe, insbesondere beim Verständnis und der Begleitung des Bildungswegs ihrer Kinder. Unser Ziel ist es, ihnen dabei zu helfen, indem wir die Kommunikation und den Austausch zwischen allen Beteiligten verbessern.</t3>
 

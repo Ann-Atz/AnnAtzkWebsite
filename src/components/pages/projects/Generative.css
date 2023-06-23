@@ -1,19 +1,24 @@
 .gen-text{
-    padding: 100px 40px 0px 40px;
-    text-align: left;  
+    padding: 0px 40px 0px 40px;
+    text-align: left;
+    max-width: 1000px;
+    min-width: 400px;
 }
 .gen-text > t1 {
     line-height: 2.5;
 }
-  
 .generative {
     display: grid;
     grid-template-columns: 1fr;
     max-width: 1000px;
     margin: auto;
+    margin-top: 100px;
     row-gap: 20px;
-    padding-top: 3%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 24px 0px;
   }
+  
   
 .gen-image {
     width: 200px;
@@ -27,6 +32,7 @@
 
 .gen-posters {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     justify-content: space-between;
@@ -40,6 +46,7 @@
 
 .gen-videos {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     justify-content: space-between;
