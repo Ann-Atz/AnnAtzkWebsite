@@ -137,7 +137,7 @@ function Home() {
               <img src={educare} className="project-image" alt="img" />
               <div className='project-text'>
                 <t1>Educare</t1>
-                <t3>Eine App für Flüchtlingseltern, um den Austausch mit Lehrern zu erleichtern und so die Bildungschancen ihrer Kinder zu erhöhen.</t3>
+                <t3>Ein Webservice für Flüchtlingseltern, um den Austausch mit Lehrern zu erleichtern und so die Bildungschancen ihrer Kinder zu erhöhen.</t3>
                 <t4>Tools: React Native, Github, Figma</t4>
                 <form className="home">
                   <button type="submit"><Link className='link' to="/Educare">View Project</Link></button>

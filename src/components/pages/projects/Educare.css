@@ -18,9 +18,9 @@
 }
 .eduimage {
     position: relative;
-    translate: 200px -90px;
-    max-width: 700px;
-    min-width: 400px;
+    translate: 350px -70px;
+    width: 90%;    
+    min-width: 350px;
 }
 
 .mockup3-image {
@@ -40,12 +40,20 @@
     border-radius: 0px 0px 10px 10px;
 }
 
-.eduText > t1,.eduText > t3, .stichpunkte > t3,.examples > t3  {
+.eduText > t1,.eduText > t3, .stichpunkteEdu > t3,.examplesEdu > t3  {
     color: black;
 }
 
-.examples{
+.eduText > t1 {
+line-height: 2;}
+
+.examplesEdu{
     margin-top: -45px;
+}
+
+
+.stichpunkteEdu {
+    padding-top: 40px;
 }
 
 @media screen and (max-width: 800px){
@@ -81,24 +89,32 @@
     width: 380px;
 }
 
+
+.eduimage {
+    translate: -20px 100px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;    
+}
+
 .eduText{
     margin-top: 8px;
     padding: 20px 32px 56px;
 }
 
-.stichpunkte {
+.stichpunkteEdu {
     padding-top: 20px;
 }
 
-.examples{
+.examplesEdu{
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
 }
-.stichpunkte t3{
+.stichpunkteEdu t3{
     display: inline;
 }
-.stichpunkte t3 span{
+.stichpunkteEdu t3 span{
     font-weight: bolder;
 }
 }
