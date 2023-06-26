@@ -22,7 +22,7 @@
     text-align: justify;
     margin: 30px;
     font-size: 1rem;
-    background-color: rgba(17, 17, 19, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 60px;
 }
 
@@ -32,20 +32,24 @@
         flex-direction: column;
         gap: 32px;
     }
+
     .about-text {
         hyphens: auto;
         margin: 16px;
         padding: 40px;
-    }    
+    }
+
     .hero-pic {
         width: 50%;
     }
 }
 
-.btnDiv{
-    margin-top: 16px;
-}
-
+.btnDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+  
 .about button {
     justify-content: end;
     padding: 5px 16px;
@@ -69,5 +73,4 @@
     transform: translate(4px, 2px);
     mix-blend-mode: difference;
     stroke-width: 2.5;
-  }
-  
+}

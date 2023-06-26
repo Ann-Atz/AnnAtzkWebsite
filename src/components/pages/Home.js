@@ -94,7 +94,7 @@ function Home() {
       <Reveal>
         <div className='welcome'>
           <div className='title4'>Willkommen!</div>
-          <div className='Welcome_Text'>Schön, dass du auf meiner Webseite gelandet bist. Hier bekommst du einen kleinen Einblick in meine Fähigkeiten und Projekte. Mein Name ist Ann-Marie und ich bin begeistert von der Problemlösung und dem Design im Bereich UI/UX und Frontend-Entwicklung. Mit meiner Kombination aus Kreativität und technischem Know-how entwickle ich innovative Lösungen für ansprechendes Design und nahtlose Benutzererfahrungen. Auf meiner Webseite findest du einen Überblick über meine Projekte 
+          <div className='Welcome_Text'>Schön, dass du auf meiner Webseite gelandet bist. Hier bekommst du einen kleinen Einblick in meine Fähigkeiten und Projekte. Mein Name ist Ann-Marie und ich bin begeistert von der Problemlösung und dem Design im Bereich UI/UX und Frontend-Entwicklung. Mit meiner Kombination aus Kreativität und technischem Know-how entwickle ich innovative Lösungen für ansprechendes Design und nahtlose Benutzererfahrungen. 
           </div>
         </div>
       </Reveal>
@@ -125,7 +125,7 @@ function Home() {
               <img src={generative} className="project-image" alt="img" />
               <div className='project-text'>
                 <t1>Generatives Design</t1>
-                <t3>Generative Poster und Animationen: Visualisierung der Lichtverschmutzung und ihre Auswirkungen auf das Verhalten von Vögeln.</t3>
+                <t3>Visualisierung der Lichtverschmutzung und ihre Auswirkungen auf das Verhalten von Vögeln in generative Poster und Animationen.</t3>
                 <t4>Tools: After Effects, Photoshop, p5.js</t4>
                 <form className="home">
                   <button type="submit"><Link className='link' to="/Generative">View Project</Link></button>
@@ -137,10 +137,10 @@ function Home() {
               <img src={educare} className="project-image" alt="img" />
               <div className='project-text'>
                 <t1>Educare</t1>
-                <t3>Ein Webservice für Flüchtlingseltern, um den Austausch mit Lehrern zu erleichtern und so die Bildungschancen ihrer Kinder zu erhöhen.</t3>
+                <t3>Ein Webservice für geflüchtete Eltern, um den Austausch mit Lehrern zu erleichtern und so die Bildungschancen ihrer Kinder zu erhöhen.</t3>
                 <t4>Tools: React Native, Github, Figma</t4>
                 <form className="home">
-                  <button type="submit"><Link className='link' to="/Educare">View Project</Link></button>
+                  <button type="submit"><Link className='link' to="/Educare">View Figma</Link></button>
                 </form>
                 {/* <form className="home" action="https://educaregruppef.onrender.com/" target="_blank">
       <button type="submit">View Project</button>
@@ -171,7 +171,7 @@ function Home() {
                 <t3>Dein persönlicher Sprachassistent, der dir hilft, deinen Hauttyp zu bestimmen und die richtigen Pflegemittel zu finden.</t3>
                 <t4>Tools: Amazon Developer, VoiceFlow</t4>
                 <form className="home" action="https://github.com/ID-Start-Winter21/SkinGuide/wiki" target="_blank">
-                  <button type="submit">View Project</button>
+                  <button type="submit">View Github</button>
                 </form>
               </div></div>
           </Reveal>
@@ -187,7 +187,7 @@ function Home() {
       <button type="submit"><Link className='link' to="/HastaLaFiesta">View Project</Link></button>
     </form> */}
                 <form className="home" action="https://www.figma.com/proto/1lj1ArHfLqTqzSPqbxgJF9/Hasta-Link?page-id=0%3A1&node-id=1-1857&viewport=722%2C549%2C0.06&scaling=min-zoom&starting-point-node-id=1%3A1857&show-proto-sidebar=1" target="_blank">
-                  <button type="submit">View Project</button>
+                  <button type="submit">View Figma</button>
                 </form>
               </div></div>
           </Reveal>

@@ -40,6 +40,11 @@
     border-radius: 0px 0px 10px 10px;
 }
 
+
+.Edu-Top t3 {
+    width: 380px;
+}
+
 .eduText > t1,.eduText > t3, .stichpunkteEdu > t3,.examplesEdu > t3  {
     color: black;
 }
@@ -51,6 +56,23 @@ line-height: 2;}
     margin-top: -45px;
 }
 
+
+
+.Edu-Top {
+    margin-left: 30px;
+    height: 100vh;
+    margin-right: 150px;
+}
+
+.Edu-Top t0 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.Edu-Top t3 {
+    padding-left: 8px;
+    width: 380px;
+}
 
 .stichpunkteEdu {
     padding-top: 40px;
@@ -68,20 +90,6 @@ line-height: 2;}
     padding: 20px 0px;
 }
 
-.DB-Top {
-    height: 80vh;
-}
-
-.DB-Top t0 {
-    font-size: 2rem;
-    font-weight: 900;
-}
-.DB-Top t3 {
-    padding-left: 0px;
-    width: 80vw;
-    margin: 0px;
-}
-
 .mockup1-image {
     position: relative;
     margin-top: 8px;
@@ -95,6 +103,20 @@ line-height: 2;}
     justify-content: center;
     align-items: center;
     width: 80%;    
+}
+
+.Edu-Top {
+    height: 80vh;
+}
+
+.Edu-Top t0 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+.Edu-Top t3 {
+    padding-left: 0px;
+    width: 80vw;
+    margin: 0px;
 }
 
 .eduText{

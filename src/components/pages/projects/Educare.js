@@ -12,9 +12,9 @@ function DBforWomen() {
   return (
     <div className='edu'>
       <div className='EDU'>
-        <div className='DB-Top'>
+        <div className='Edu-Top'>
           <t0>EduCare</t0>
-          <t3>Einen Webservice für Flüchtlingseltern um den Austausch mit Lehrern zu erleichtern
+          <t3>Ein Webservice für Flüchtlingseltern um den Austausch mit Lehrern zu erleichtern
           </t3>
           <img src={mockup1} className="eduimage" alt="img" />
         </div>
