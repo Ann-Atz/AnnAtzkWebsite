@@ -6,6 +6,7 @@ import { Route, Routes } from "react-router-dom";
 
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
+import Impressum from "./components/pages/Impressum/Impressum";
 import Portfolio from "./components/pages/Portfolio";
 import Educare from "./components/pages/projects/Educare";
 import HastaLaFiesta from "./components/pages/projects/HastaLaFiesta";
@@ -30,6 +31,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/About" element={<About />} />
+            <Route path="/Impressum" element={<Impressum />} />
             <Route path="/Portfolio" element={<Portfolio />} />
             <Route path="/Educare" element={<Educare />} />
             <Route path="/HastaLaFiesta" element={<HastaLaFiesta />} />

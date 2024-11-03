@@ -1,7 +1,7 @@
 .about {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: stretch;
     padding-top: 10%;
     justify-content: center;
     gap: 56px;
@@ -10,21 +10,25 @@
 .hero-pic {
     width: 20%;
     height: auto;
-    border-radius: 100px;
+    max-height: 400px; 
+    object-fit: cover; 
 }
 
 .about-text {
     font-weight: 400;
     color: white;
-    max-width: 600px;
-    height: auto;
+    max-width: 50%;
+    height: auto; /* Remove if you want the text to grow */
     hyphens: auto;
-    text-align: justify;
-    margin: 30px;
+    text-align:left;
     font-size: 1rem;
     background-color: rgba(0, 0, 0, 0.6);
-    padding: 60px;
+    padding: 2.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
 
 @media screen and (max-width: 600px) {
     .about {
@@ -41,6 +45,7 @@
 
     .hero-pic {
         width: 50%;
+        max-height: 300px; /* Adjust as needed */
     }
 }
 
