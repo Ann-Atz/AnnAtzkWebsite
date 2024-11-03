@@ -25,3 +25,10 @@
 .impressum-text span {
     font-weight: bold;
 }
+
+/*for phone screen*/
+@media screen and (max-width: 600px) {
+    .impressum {
+        margin-left: 20px;
+        margin-right: 20px;
+    }}  

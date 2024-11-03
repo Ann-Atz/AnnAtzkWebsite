@@ -32,6 +32,7 @@
 
 @media screen and (max-width: 600px) {
     .about {
+        align-items: center;
         margin-top: 100px;
         flex-direction: column;
         gap: 32px;
@@ -41,6 +42,7 @@
         hyphens: auto;
         margin: 16px;
         padding: 40px;
+        max-width: 600px;
     }
 
     .hero-pic {

@@ -88,6 +88,9 @@ footer p {
 
 /*for phone screen*/
 @media screen and (max-width: 600px){
+    footer {
+        margin-top: 50%;
+    }
     .Footer_Thin, .Footer-Top p a{
         inline-size: 100px auto;
         overflow-wrap: break-word;

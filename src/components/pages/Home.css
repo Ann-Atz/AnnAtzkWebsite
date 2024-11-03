@@ -356,7 +356,11 @@ t4 {
   .title2 {
     font-size: 4rem;
    }  
-
+   .title-container{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+   }
   .ellipse-welcome {
     overflow: hidden;
   }
